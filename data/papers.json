@@ -1,0 +1,1448 @@
+[
+ {
+  "id": "p45",
+  "title": "Cross-Modal Memory Compression for Efficient Multi-Agent Debate",
+  "authors": [
+   "Jing Wu",
+   "Yue Sun",
+   "Tianpei Xie",
+   "Suiyao Chen",
+   "Jingyuan Bao",
+   "Yaopengxiao Xu",
+   "Gaoyuan Du",
+   "Inseok Heo",
+   "Alexander Gutfraind",
+   "Xin Wang"
+  ],
+  "year": 2026,
+  "type": "preprint",
+  "arxiv": "2602.00454",
+  "abstract": "Multi-agent debate can improve reasoning quality and reduce hallucinations, but it incurs rapidly growing context as debate rounds and agent count increase. Retaining full textual histories leads to token usage that can exceed context limits and often requires repeated summarization, adding overhead and compounding information loss. We introduce DebateOCR, a cross-modal compression framework that replaces long textual debate traces with compact image representations, which are then consumed through a dedicated vision encoder to condition subsequent rounds. This design compresses histories that commonly span tens to hundreds of thousands of tokens, cutting input tokens by more than 92% and yielding substantially lower compute cost and faster inference across multiple benchmarks. We further provide a theoretical perspective showing that diversity across agents supports recovery of omitted information: although any single compressed history may discard details, aggregating multiple agents' compressed views allows the collective representation to approach the information bottleneck with exponentially high probability.",
+  "tags": [
+   "AI/agents",
+   "ML"
+  ],
+  "verified": true,
+  "key": "wu2026-cross-modal-memory"
+ },
+ {
+  "id": "p60",
+  "title": "WED-014 A multivariable model of spontaneous hepatitis C virus clearance: increasing realism of simulated data",
+  "authors": [
+   "Keshav Gandhi",
+   "Eric Tatara",
+   "Jonathan Ozik",
+   "Basmattee Boodram",
+   "Scott Cotler",
+   "Marian Major",
+   "Harel Dahari",
+   "Alexander Gutfraind"
+  ],
+  "year": 2026,
+  "type": "paper",
+  "venue": "Journal of Hepatology",
+  "volume": "84",
+  "pages": "S818-S819",
+  "doi": "10.1016/s0168-8278(26)02217-8",
+  "abstract": "Spontaneous clearance of hepatitis C virus (HCV) occurs in about 20-46% of men who have sex with men (MSM). Younger age and HIV uninfection increase clearance likelihood. HCV clearance mechanisms differ by acquisition mode.",
+  "tags": [
+   "health",
+   "applied math"
+  ],
+  "verified": true,
+  "key": "gandhi2026-wed-014-multivariable"
+ },
+ {
+  "id": "p55",
+  "title": "Building more accountable multi-modal LLMs through spatially-informed visual reasoning",
+  "authors": [
+   "J Wu",
+   "S Chen",
+   "A Gutfraind",
+   "I Heo",
+   "S Liu",
+   "C Li",
+   "J Curuksu",
+   "M Sharps"
+  ],
+  "year": 2025,
+  "type": "paper",
+  "abstract": "Many successful terrorist groups operate across international borders where different countries host different stages of terrorist operations. Often the recruits for the group come from one country or countries, while the targets of the operations are in another. Stopping such attacks is difficult because intervention in any region or route might merely shift the terrorists elsewhere. Here we propose a model of transnational terrorism based on the theory of activity networks. The model represents attacks on different countries as paths in a network. The group is assumed to prefer paths of lowest cost (or risk) and maximal yield from attacks. The parameters of the model are computed for the Islamist-Salafi terrorist movement based on open source data and then used for estimation of risks of future attacks. The central finding is that the USA has an enduring appeal as a target, due to lack of other nations of matching geopolitical weight or openness. It is also shown that countries in Africa and Asia that have been overlooked as terrorist bases may become highly significant threats in the future. The model quantifies the dilemmas facing countries in the effort to cut such networks, and points to a limitation of deterrence against transnational terrorists.",
+  "tags": [
+   "AI/agents",
+   "ML"
+  ],
+  "verified": false,
+  "key": "wu2025-building-more-accountable"
+ },
+ {
+  "id": "p46",
+  "title": "Challenges in coverage of future hepatitis C vaccines: Review and potential solutions",
+  "authors": [
+   "Keshav Gandhi",
+   "Yash Vijay",
+   "Kimberly Page",
+   "Harel Dahari",
+   "Alexander Gutfraind"
+  ],
+  "year": 2025,
+  "type": "paper",
+  "venue": "Vaccine",
+  "volume": "59",
+  "pages": "127256",
+  "doi": "10.1016/j.vaccine.2025.127256",
+  "abstract": "Challenges in coverage of future hepatitis C vaccines include vaccine uptake barriers and logistical issues. Recommendations focus on integrating vaccination with existing public health programs. Solutions involve improving public awareness and addressing socioeconomic factors.",
+  "tags": [
+   "health"
+  ],
+  "verified": true,
+  "key": "gandhi2025-challenges-coverage-future"
+ },
+ {
+  "id": "p54",
+  "title": "From nuclear safety to LLM security: Applying non-probabilistic risk management strategies to build safe and secure LLM-powered systems",
+  "authors": [
+   "Alexander Gutfraind",
+   "Vicki Bier"
+  ],
+  "year": 2025,
+  "type": "preprint",
+  "arxiv": "2505.17084",
+  "abstract": "Large language models (LLMs) offer unprecedented and growing capabilities, but also introduce complex safety and security challenges that resist conventional risk management. While conventional probabilistic risk analysis (PRA) requires exhaustive risk enumeration and quantification, the novelty and complexity of these systems make PRA impractical, particularly against adaptive adversaries. Previous research found that risk management in various fields of engineering such as nuclear or civil engineering is often solved by generic (i.e. field-agnostic) strategies such as event tree analysis or robust designs. Here we show how emerging risks in LLM-powered systems could be met with 100+ of these non-probabilistic strategies to risk management, including risks from adaptive adversaries. The strategies are divided into five categories and are mapped to LLM security (and AI safety more broadly). We also present an LLM-powered workflow for applying these strategies and other workflows suitable for solution architects. Overall, these strategies could contribute (despite some limitations) to security, safety and other dimensions of responsible AI.",
+  "tags": [
+   "AI/agents",
+   "risk",
+   "security"
+  ],
+  "verified": true,
+  "key": "gutfraind2025-nuclear-safety-llm"
+ },
+ {
+  "id": "p53",
+  "title": "Modern approaches to predicting vaccine hesitancy: A scoping review",
+  "authors": [
+   "Keshav Gandhi",
+   "Sami Alahmadi",
+   "Rosie Hanneke",
+   "Alexander Gutfraind"
+  ],
+  "year": 2025,
+  "type": "paper",
+  "venue": "Vaccine: X",
+  "volume": "24",
+  "pages": "100655",
+  "doi": "10.1016/j.jvacx.2025.100655",
+  "abstract": "Abstract Introduction Motivated by the disproportionate burden of infectious diseases on vulnerable populations and the risk of future pandemics, we conducted a scoping review to analyze the state of the literature about “vaccine uptake indices,” defined as models that predict vaccination rates by geospatial area. We analyzed novel vaccine uptake indices created in response to the recent COVID-19 pandemic. The aim of this scoping review is to survey the state of the literature regarding vaccine uptake indices relating to COVID-19 and other infectious diseases. Methods We conducted a scoping review with a systematic search strategy to identify relevant articles from the databases Embase, PubMed, and Web of Science with title and abstract screening, full-text review, and data extraction. Results Database searches resulted in 3,615 potential articles, of which 229 reports were included. Fifteen studies (7%) were determined to be methodologically advanced vaccine uptake indices that had at least three of the following characteristics: the use of individual- and population-level predictor variables (100 [44%]), geo-spatiotemporal analysis (58 [25%]), data usage agnostic to vaccine specificity (50 [22%]), or sociobehavioral frameworks of health (such as the Health Belief Model and Theory of Planned Behavior) (30 [13%]). Conclusion This scoping review offers suggestions for future research of next-generation vaccine uptake indices before use in vaccination campaigns of recurring or novel infectious diseases. Areas to pursue include utilizing individual-level data about vaccination behaviors in conjunction with administrative data, solving the challenge of implementing small-area spatiotemporal analysis, using vaccine-agnostic methods that consider data from more than one infectious disease, and assisting causal inference with theoretical frameworks.",
+  "tags": [
+   "health",
+   "ML"
+  ],
+  "verified": true,
+  "key": "gandhi2025-modern-approaches-predicting"
+ },
+ {
+  "id": "p47",
+  "title": "On strategies for risk management and decision making under uncertainty shared across multiple fields",
+  "authors": [
+   "Alexander Gutfraind"
+  ],
+  "year": 2025,
+  "type": "preprint",
+  "arxiv": "2309.03133",
+  "abstract": "Decision theory recognizes two principal approaches to solving problems under uncertainty: probabilistic models and cognitive heuristics. However, engineers, public planners and decision-makers in other fields seem to employ solution strategies that do not fall into either field, i.e., strategies such as robust design and contingency planning. In addition, identical strategies appear in several fields and disciplines, pointing to an important shared toolkit. The focus of this paper is to develop a systematic understanding of such strategies and develop a framework to better employ them in decision making and risk management. The paper finds more than 110 examples of such strategies and this approach to risk is termed RDOT: Risk-reducing Design and Operations Toolkit. RDOT strategies fall into six broad categories: structural, reactive, formal, adversarial, multi-stage and positive. RDOT strategies provide an efficient response even to radical uncertainty or unknown unknowns that are challenging to address with probabilistic methods. RDOT could be incorporated into decision theory using workflows, multi-objective optimization and multi-attribute utility theory. Overall, RDOT represents an overlooked class of versatile responses to uncertainty. Because RDOT strategies do not require precise estimation or forecasting, they are particularly helpful in decision problems affected by uncertainty and for resource-constrained decision making.",
+  "tags": [
+   "risk",
+   "applied math"
+  ],
+  "verified": true,
+  "key": "gutfraind2025-strategies-risk-management"
+ },
+ {
+  "id": "p61",
+  "title": "Sustainability-Focused Generative AI Risk Mitigation Strategies",
+  "authors": [
+   "Lin Shi",
+   "Alexander Gutfraind"
+  ],
+  "year": 2025,
+  "type": "paper",
+  "venue": "35th European Safety and Reliability Conference (ESREL 2025) and the 33rd Society for Risk Analysis Europe Conference (SRA-E 2025)",
+  "pages": "251-258",
+  "doi": "10.3850/978-981-94-3281-3_esrel-sra-e2025-p6517-cd",
+  "tags": [
+   "AI/agents",
+   "risk"
+  ],
+  "verified": true,
+  "key": "shi2025-sustainability-focused-generative"
+ },
+ {
+  "id": "p01",
+  "title": "Unfixing the mental set: Granting early-stage reasoning freedom in multi-agent debate",
+  "authors": [
+   "J Wu",
+   "S Chen",
+   "I Heo",
+   "S Gutfraind",
+   "S Liu",
+   "C Li",
+   "B Srinivasan",
+   "X Zhang",
+   "..."
+  ],
+  "year": 2025,
+  "type": "paper",
+  "abstract": "Complex socioeconomic networks such as information, finance and even terrorist networks need resilience to cascades - to prevent the failure of a single node from causing a far-reaching domino effect. We show that terrorist and guerrilla networks are uniquely cascade-resilient while maintaining high efficiency, but they become more vulnerable beyond a certain threshold. We also introduce an optimization method for constructing networks with high passive cascade resilience. The optimal networks are found to be based on cells, where each cell has a star topology. Counterintuitively, we find that there are conditions where networks should not be modified to stop cascades because doing so would come at a disproportionate loss of efficiency. Implementation of these findings can lead to more cascade-resilient networks in many diverse areas.",
+  "tags": [
+   "AI/agents"
+  ],
+  "verified": false,
+  "key": "wu2025-unfixing-mental-set"
+ },
+ {
+  "id": "p48",
+  "title": "Defining the analytical complexity of decision problems under uncertainty based on their pivotal properties",
+  "authors": [
+   "Alexander Gutfraind"
+  ],
+  "year": 2024,
+  "type": "paper",
+  "venue": "PeerJ Computer Science",
+  "volume": "10",
+  "pages": "e2195",
+  "doi": "10.7717/peerj-cs.2195",
+  "abstract": "Background Uncertainty poses a pervasive challenge in decision analysis and risk management. When the problem is poorly understood, probabilistic estimation exhibits high variability and bias. Analysts then utilize various strategies to find satisficing solutions, and these strategies can sometimes adequately address even highly complex problems. Previous literature proposed a hierarchy of uncertainty, but did not develop a quantitative score of analytical complexity. Methods In order to develop such a score, this study reviewed over 90 strategies to cope with uncertainty, including methods utilized by expert decision-makers such as engineers, military planners and others. Results It found that many decision problems have pivotal properties that enable their solution despite uncertainty, including small action space, reversibility and others. The analytical complexity score of a problem could then be defined based on the availability of these properties.",
+  "tags": [
+   "risk",
+   "applied math"
+  ],
+  "verified": true,
+  "key": "gutfraind2024-defining-analytical-complexity"
+ },
+ {
+  "id": "p42",
+  "title": "Modeling of randomized hepatitis C vaccine trials: Bridging the gap between controlled human infection models and real-word testing",
+  "authors": [
+   "Mary-Ellen Mackesy-Amiti",
+   "Alexander Gutfraind",
+   "Eric Tatara",
+   "Nicholson T Collier",
+   "Scott J Cotler",
+   "Kimberly Page",
+   "Jonathan Ozik",
+   "Basmattee Boodram",
+   "Marian Major",
+   "Harel Dahari"
+  ],
+  "year": 2024,
+  "type": "paper",
+  "venue": "PNAS Nexus",
+  "volume": "4",
+  "doi": "10.1093/pnasnexus/pgae564",
+  "abstract": "Abstract Global elimination of chronic hepatitis C (CHC) remains difficult without an effective vaccine. Since injection drug use is the leading cause of hepatitis C virus (HCV) transmission in Western Europe and North America, people who inject drugs (PWID) are an important population for testing HCV vaccine effectiveness in randomized-clinical trials (RCTs). However, RCTs in PWID are inherently challenging. To accelerate vaccine development, controlled human infection (CHI) models have been suggested as a means to identify effective vaccines. To bridge the gap between CHI models and real-world testing, we developed an agent-based model simulating a two-dose vaccine to prevent CHC in PWID, representing 32,000 PWID in metropolitan Chicago and accounting for networks and HCV infections. We ran 500 trial simulations under 50 and 75% assumed vaccine efficacy (aVE) and sampled HCV infection status of recruited in silico PWID. The mean estimated vaccine efficacy (eVE) for 50 and 75% aVE was 48% (SD ± 12) and 72% (SD ± 11), respectively. For both conditions, the majority of trials (∼71%) resulted in eVEs within 1 SD of the mean, demonstrating a robust trial design. Trials that resulted in eVEs &amp;gt;1 SD from the mean (lowest eVEs of 3 and 35% for 50 and 75% aVE, respectively), were more likely to have imbalances in acute infection rates across trial arms. Modeling indicates robust trial design and high success rates of finding vaccines to be effective in real-life trials in PWID. However, with less effective vaccines (aVEs∼50%) there remains a higher risk of concluding poor vaccine efficacy due to post-randomization imbalances.",
+  "tags": [
+   "health"
+  ],
+  "verified": true,
+  "key": "mackesyamiti2024-modeling-randomized-hepatitis"
+ },
+ {
+  "id": "p63",
+  "title": "MULTIMORBIDITY AND TREATMENT OUTCOMES IN ADVANCED CHRONIC OBSTRUCTIVE PULMONARY DISEASE (COPD): REAL-WORLD EVIDENCE FROM A NATIONAL HEALTH CARE DATA SET",
+  "authors": [
+   "ALEXANDER GUTFRAIND",
+   "PAULA ALVES",
+   "STEPHANIE CHONG",
+   "JINGPU SHI",
+   "CHARLOTTE KNOTT",
+   "RAJAS KALE",
+   "IVANA JANKOVIC",
+   "BEAU NORGEOT"
+  ],
+  "year": 2023,
+  "type": "paper",
+  "venue": "CHEST",
+  "volume": "164",
+  "pages": "A4964-A4965",
+  "doi": "10.1016/j.chest.2023.07.3216",
+  "abstract": "Multimorbidity in advanced COPD is common, with GERD, diabetes, and osteoporosis affecting treatment outcomes. Real-world evidence shows these conditions worsen COPD management. Effective treatment requires addressing these comorbidities.",
+  "tags": [
+   "health"
+  ],
+  "verified": true,
+  "key": "gutfraind2023-multimorbidity-treatment-outcomes"
+ },
+ {
+  "id": "p43",
+  "title": "Reducing Sample Size While Improving Equity in Vaccine Clinical Trials: A Machine Learning-Based Recruitment Methodology with Application to Improving Trials of Hepatitis C Virus Vaccines in People Who Inject Drugs",
+  "authors": [
+   "Richard  Guan Chiu",
+   "Eric Tatara",
+   "Mary Ellen Mackesy-Amiti",
+   "Kimberly  Ann Page",
+   "Jonathan Ozik",
+   "Basmatee Boodrum",
+   "Harel Dahari",
+   "Alexander Gutfraind"
+  ],
+  "year": 2023,
+  "type": "paper",
+  "doi": "10.2139/ssrn.4370294",
+  "abstract": "Despite the availability of direct-acting antivirals that cure individuals infected with the hepatitis C virus (HCV), developing a vaccine is critically needed in achieving HCV elimination. HCV vaccine trials have been performed in populations with high incidence of new HCV infection such as people who inject drugs (PWID). Developing strategies of optimal recruitment of PWID for HCV vaccine trials could reduce sample size, follow-up costs and disparities in enrollment. We investigate trial recruitment informed by machine learning and evaluate a strategy for HCV vaccine trials termed PREDICTEE—Predictive Recruitment and Enrichment method balancing Demographics and Incidence for Clinical Trial Equity and Efficiency. PREDICTEE utilizes a survival analysis model applied to trial candidates, considering their demographic and injection characteristics to predict the candidate’s probability of HCV infection during the trial. The decision to recruit considers both the candidate’s predicted incidence and demographic characteristics such as age, sex, and race. We evaluated PREDICTEE using in silico methods, in which we first generated a synthetic candidate pool and their respective HCV infection events using HepCEP, a validated agent-based simulation model of HCV transmission among PWID in metropolitan Chicago. We then compared PREDICTEE to conventional recruitment of high-risk PWID who share drugs or injection equipment in terms of sample size and recruitment equity, with the latter measured by participation-to-prevalence ratio (PPR) across age, sex, and race. Comparing conventional recruitment to PREDICTEE found a reduction in sample size from 802 (95%: 642–1010) to 278 (95%: 264–294) with PREDICTEE, while also reducing screening requirements by 30%. Simultaneously, PPR increased from 0.475 (95%: 0.356–0.568) to 0.754 (95%: 0.685–0.834). Even when targeting a dissimilar maximally balanced population in which achieving recruitment equity would be more difficult, PREDICTEE is able to reduce sample size from 802 (95%: 642–1010) to 304 (95%: 288–322) while improving PPR to 0.807 (95%: 0.792–0.821). PREDICTEE presents a promising strategy for HCV clinical trial recruitment, achieving sample size reduction while improving recruitment equity.",
+  "tags": [
+   "health",
+   "ML"
+  ],
+  "verified": true,
+  "key": "chiu2023-reducing-sample-size"
+ },
+ {
+  "id": "p56",
+  "title": "Risk, Uncertainty and AI: Non-probabilistic methods for anticipating and preventing AI risks",
+  "authors": [
+   "A Gutfraind",
+   "VM Bier"
+  ],
+  "year": 2023,
+  "type": "paper",
+  "abstract": "Non-probabilistic methods for AI risk anticipate and prevent risks through heuristic and scenario-based approaches. They focus on identifying potential threats without relying on statistical probabilities. These methods are crucial for addressing uncertainties in AI development.",
+  "tags": [
+   "AI/agents",
+   "risk"
+  ],
+  "verified": false,
+  "key": "gutfraind2023-risk-uncertainty-ai"
+ },
+ {
+  "id": "p49",
+  "title": "Risk-reducing design and operations toolkit: 90 strategies for managing risk and uncertainty in decision problems",
+  "authors": [
+   "A Gutfraind"
+  ],
+  "year": 2023,
+  "type": "paper",
+  "abstract": "Background: Uncertainty poses a pervasive challenge in decision analysis and risk management. When the problem is poorly understood, probabilistic estimation exhibits high variability and bias. Analysts then utilize various strategies to find satisficing solutions, and these strategies can sometimes adequately address even highly complex problems. Previous literature proposed a hierarchy of uncertainty, but did not develop a quantitative score of analytical complexity. Methods: In order to develop such a score, this study reviewed over 90 strategies to cope with uncertainty, including methods utilized by expert decision-makers such as engineers, military planners and others. Results: It found that many decision problems have pivotal properties that enable their solution despite uncertainty, including small action space, reversibility and others. The analytical complexity score of a problem could then be defined based on the availability of these properties.",
+  "tags": [
+   "risk"
+  ],
+  "verified": false,
+  "key": "gutfraind2023-risk-reducing-design"
+ },
+ {
+  "id": "p25",
+  "title": "Modeling hepatitis C micro-elimination among people who inject drugs with direct-acting antivirals in metropolitan Chicago",
+  "authors": [
+   "Eric Tatara",
+   "Alexander Gutfraind",
+   "Nicholson T. Collier",
+   "Desarae Echevarria",
+   "Scott J. Cotler",
+   "Marian E. Major",
+   "Jonathan Ozik",
+   "Harel Dahari",
+   "Basmattee Boodram"
+  ],
+  "year": 2022,
+  "type": "paper",
+  "venue": "PLOS ONE",
+  "volume": "17",
+  "pages": "e0264983",
+  "doi": "10.1371/journal.pone.0264983",
+  "abstract": "Hepatitis C virus (HCV) infection is a leading cause of chronic liver disease and mortality worldwide. Direct-acting antiviral (DAA) therapy leads to high cure rates. However, persons who inject drugs (PWID) are at risk for reinfection after cure and may require multiple DAA treatments to reach the World Health Organization’s (WHO) goal of HCV elimination by 2030. Using an agent-based model (ABM) that accounts for the complex interplay of demographic factors, risk behaviors, social networks, and geographic location for HCV transmission among PWID, we examined the combination(s) of DAA enrollment (2.5%, 5%, 7.5%, 10%), adherence (60%, 70%, 80%, 90%) and frequency of DAA treatment courses needed to achieve the WHO’s goal of reducing incident chronic infections by 90% by 2030 among a large population of PWID from Chicago, IL and surrounding suburbs. We also estimated the economic DAA costs associated with each scenario. Our results indicate that a DAA treatment rate of &gt;7.5% per year with 90% adherence results in 75% of enrolled PWID requiring only a single DAA course; however 19% would require 2 courses, 5%, 3 courses and &lt;2%, 4 courses, with an overall DAA cost of $325 million to achieve the WHO goal in metropolitan Chicago. We estimate a 28% increase in the overall DAA cost under low adherence (70%) compared to high adherence (90%). Our modeling results have important public health implications for HCV elimination among U.S. PWID. Using a range of feasible treatment enrollment and adherence rates, we report robust findings supporting the need to address re-exposure and reinfection among PWID to reduce HCV incidence.",
+  "tags": [
+   "health"
+  ],
+  "verified": true,
+  "key": "tatara2022-modeling-hepatitis-c"
+ },
+ {
+  "id": "p28",
+  "title": "Victims of human trafficking and exploitation in the healthcare system: a retrospective study using a large multi-state dataset and ICD-10 codes",
+  "authors": [
+   "Alexander Gutfraind",
+   "Kezban Yagci Sokat",
+   "Guido Muscioni",
+   "Sami Alahmadi",
+   "Jonathan Hudlow",
+   "Ronald Hershow",
+   "Beau Norgeot"
+  ],
+  "year": 2022,
+  "type": "paper",
+  "doi": "10.1101/2022.05.02.22274579",
+  "abstract": "Trafficking and exploitation for sex or labor affects millions of persons worldwide. To improve healthcare for these patients, in late 2018 new ICD-10 medical diagnosis codes were implemented in the US. These 13 codes include diagnosis of adult and child sexual exploitation, adult and child labor exploitation, and history of exploitation. Here we report on a database search of a large US health insurer that contained approximately 47.1 million patients and 0.9 million provider organizations, not limited to large medical systems. We reported on any diagnosis with the new codes between 2018-09-01 and 2022-09-01. The dataset was found to contain 5,262 instances of the ICD-10 codes. Regression analysis of the codes found a 5.8% increase in the uptake of these codes per year, representing a decline relative to 6.7% annual increase in the data. The codes were used by 1,810 different providers (0.19% of total) for 2,793 patients. Of the patients, 1,248 were recently trafficked, while the remainder had a personal history of exploitation. Of the recent cases, 86% experienced sexual exploitation, 14% labor exploitation and 0.8% both types. These patients were predominantly female (83%) with a median age of 20 (interquartile range: 15–35). The patients were characterized by persistently high prevalence of mental health conditions (including anxiety: 21%, post-traumatic stress disorder: 20%, major depression: 18%), sexually-transmitted infections, and high utilization of the emergency department (ED). The patients’ first report of trafficking occurred most often outside of a hospital or emergency setting (55%), primarily during office and psychiatric visits.",
+  "tags": [
+   "health",
+   "security"
+  ],
+  "verified": true,
+  "key": "gutfraind2022-victims-human-trafficking"
+ },
+ {
+  "id": "p23",
+  "title": "Effectiveness of isolation policies in schools: evidence from a mathematical model of influenza and COVID-19",
+  "authors": [
+   "Adam A.C. Burns",
+   "Alexander Gutfraind"
+  ],
+  "year": 2021,
+  "type": "paper",
+  "venue": "PeerJ",
+  "volume": "9",
+  "pages": "e11211",
+  "doi": "10.7717/peerj.11211",
+  "abstract": "Background Non-pharmaceutical interventions such as social distancing, school closures and travel restrictions are often implemented to control outbreaks of infectious diseases. For influenza in schools, the Center of Disease Control (CDC) recommends that febrile students remain isolated at home until they have been fever-free for at least one day and a related policy is recommended for SARS-CoV-2 (COVID-19). Other authors proposed using a school week of four or fewer days of in-person instruction for all students to reduce transmission. However, there is limited evidence supporting the effectiveness of these interventions. Methods We introduced a mathematical model of school outbreaks that considers both intervention methods. Our model accounts for the school structure and schedule, as well as the time-progression of fever symptoms and viral shedding. The model was validated on outbreaks of seasonal and pandemic influenza and COVID-19 in schools. It was then used to estimate the outbreak curves and the proportion of the population infected (attack rate) under the proposed interventions. Results For influenza, the CDC-recommended one day of post-fever isolation can reduce the attack rate by a median (interquartile range) of 29 (13–59)%. With 2 days of post-fever isolation the attack rate could be reduced by 70 (55–85)%. Alternatively, shortening the school week to 4 and 3 days reduces the attack rate by 73 (64–88)% and 93 (91–97)%, respectively. For COVID-19, application of post-fever isolation policy was found to be less effective and reduced the attack rate by 10 (5–17)% for a 2-day isolation policy and by 14 (5–26)% for 14 days. A 4-day school week would reduce the median attack rate in a COVID-19 outbreak by 57 (52–64)%, while a 3-day school week would reduce it by 81 (79–83)%. In both infections, shortening the school week significantly reduced the duration of outbreaks. Conclusions Shortening the school week could be an important tool for controlling influenza and COVID-19 in schools and similar settings. Additionally, the CDC-recommended post-fever isolation policy for influenza could be enhanced by requiring two days of isolation instead of one.",
+  "tags": [
+   "health",
+   "applied math"
+  ],
+  "verified": true,
+  "key": "burns2021-effectiveness-isolation-policies"
+ },
+ {
+  "id": "p50",
+  "title": "Computer system and method for handling non-communicative assets",
+  "authors": [
+   "S Kirmer",
+   "A Gutfraind"
+  ],
+  "year": 2020,
+  "type": "patent",
+  "abstract": "The interdiction problem arises in a variety of areas including military logistics, infectious disease control, and counter-terrorism. In the typical formulation of network interdiction, the task of the interdictor is to find a set of edges in a weighted network such that the removal of those edges would maximally increase the cost to an evader of traveling on a path through the network. Our work is motivated by cases in which the evader has incomplete information about the network or lacks planning time or computational power, e.g. when authorities set up roadblocks to catch bank robbers, the criminals do not know all the roadblock locations or the best path to use for their escape. We introduce a model of network interdiction in which the motion of one or more evaders is described by Markov processes and the evaders are assumed not to react to interdiction decisions. The interdiction objective is to find an edge set of size B, that maximizes the probability of capturing the evaders. We prove that similar to the standard least-cost formulation for deterministic motion this interdiction problem is also NP-hard. But unlike that problem our interdiction problem is submodular and the optimal solution can be approximated within 1-1/e using a greedy algorithm. Additionally, we exploit submodularity through a priority evaluation strategy that eliminates the linear complexity scaling in the number of network edges and speeds up the solution by orders of magnitude. Taken together the results bring closer the goal of finding realistic solutions to the interdiction problem on global-scale networks.",
+  "tags": [
+   "risk",
+   "ML"
+  ],
+  "verified": false,
+  "key": "kirmer2020-computer-system-method"
+ },
+ {
+  "id": "p31",
+  "title": "Modeling indicates efficient vaccine-based interventions for the elimination of hepatitis C virus among persons who inject drugs in metropolitan Chicago",
+  "authors": [
+   "Desarae Echevarria",
+   "Alexander Gutfraind",
+   "Basmattee Boodram",
+   "Jennifer Layden",
+   "Jonathan Ozik",
+   "Kimberly Page",
+   "Scott J. Cotler",
+   "Marian Major",
+   "Harel Dahari"
+  ],
+  "year": 2019,
+  "type": "paper",
+  "venue": "Vaccine",
+  "volume": "37",
+  "pages": "2608-2616",
+  "doi": "10.1016/j.vaccine.2019.02.081",
+  "abstract": "Background and Aims Persons who inject drugs (PWID) are at highest risk for acquiring and transmitting hepatitis C (HCV) infection. The recent availability of oral direct-acting antiviral (DAA) therapy with reported cure rates >90% can prevent HCV transmission, making HCV elimination an attainable goal among PWID. The World Health Organization (WHO) recently proposed a 90% reduction in HCV incidence as a key objective. However, given barriers to the use of DAAs in PWID, including cost, restricted access to DAAs, and risk of reinfection, combination strategies including the availability of effective vaccines are needed to eradicate HCV as a public health threat. This study aims to model the cost and efficacy of a dual modality approach using HCV vaccines combined with DAAs to reduce HCV incidence by 90% and prevalence by 50% in PWID populations. Methods: We developed a mathematical model that represents the HCV epidemic among PWID and calibrated it to empirical data from metropolitan Chicago, Illinois. Four medical interventions were considered: vaccination of HCV naive PWID, DAA treatment, DAA treatment followed by vaccination, and, a combination of vaccination and DAA treatment. Results: The combination of vaccination and DAAs is the lowest cost-expensive intervention for achieving the WHO target of 90% incidence reduction. The use of DAAs without a vaccine is much less cost-effective with the additional risk of reinfection after treatment. Vaccination of naïve PWID alone, even when scaled-up to all reachable PWID, cannot achieve 90% reduction of incidence in high-prevalence populations due to infections occurring before vaccination. Similarly, the lowest cost-expensive way to halve prevalence in 15 years is through the combination of vaccination and DAAs. Conclusions: The modeling results underscore the importance of developing an effective HCV vaccine and augmenting DAAs with vaccines in HCV intervention strategies in order to achieve efficient reductions in incidence and prevalence.",
+  "tags": [
+   "health"
+  ],
+  "verified": true,
+  "key": "echevarria2019-modeling-indicates-efficient"
+ },
+ {
+  "id": "p32",
+  "title": "Multi-Objective Model Exploration of Hepatitis C Elimination in an Agent-Based Model of People who Inject Drugs",
+  "authors": [
+   "Eric Tatara",
+   "Nicholson T. Collier",
+   "Jonathan Ozik",
+   "Alexander Gutfraind",
+   "Scott J. Cotler",
+   "Harel Dahari",
+   "Marian Major",
+   "Basmattee Boodram"
+  ],
+  "year": 2019,
+  "type": "paper",
+  "venue": "2019 Winter Simulation Conference (WSC)",
+  "pages": "1008-1019",
+  "doi": "10.1109/wsc40007.2019.9004747",
+  "abstract": "ABSTRACT Hepatitis C virus (HCV) infection is a leading cause of chronic liver disease and mortality worldwide. Direct-acting antiviral (DAA) therapy leads to high cure rates. However, persons who inject drugs (PWID) are at risk for reinfection after cure and may require multiple DAA treatments to reach the World Health Organization’s (WHO) goal of HCV elimination by 2030. Using an agent-based model (ABM) that accounts for the complex interplay of demographic factors, risk behaviors, social networks, and geographic location for HCV transmission among PWID, we examined the combination(s) of DAA enrollment (2.5%, 5%, 7.5%, 10%), adherence (60%, 70%, 80%, 90%) and frequency of DAA treatment courses needed to achieve the WHO’s goal of reducing incident chronic infections by 90% by 2030 among a large population of PWID from Chicago, IL and surrounding suburbs. We also estimated the economic DAA costs associated with each scenario. Our results indicate that a DAA treatment rate of &gt;7.5% per year with 90% adherence results in 75% of enrolled PWID requiring only a single DAA course; however19% would require 2 courses, 5%, 3 courses and &lt;2%, 4 courses), with an overall DAA cost of $325 million to achieve the WHO goal in metropolitan Chicago. We estimate a 28% increase in the overall DAA cost under low adherence (70%) compared to high adherence (90%). Our modeling results have important public health implications for HCV elimination among U.S. PWID. Using a range of feasible treatment enrollment and adherence rates, we report robust findings supporting the need to address re-exposure and reinfection among PWID to reduce HCV incidence.",
+  "tags": [
+   "health",
+   "applied math"
+  ],
+  "verified": true,
+  "key": "tatara2019-multi-objective-model"
+ },
+ {
+  "id": "p34",
+  "title": "Multiscale planar graph generation",
+  "authors": [
+   "Varsha Chauhan",
+   "Alexander Gutfraind",
+   "Ilya Safro"
+  ],
+  "year": 2019,
+  "type": "paper",
+  "venue": "Applied Network Science",
+  "volume": "4",
+  "doi": "10.1007/s41109-019-0142-3",
+  "arxiv": "1802.09617",
+  "abstract": "Multiscale planar graph generation is a method for creating realistic, planar network structures at various scales. The framework uses a multi-scale randomized algorithm. It was introduced by Varsha Chauhan, Alexander Gutfraind, and Ilya Safro.",
+  "tags": [
+   "networks"
+  ],
+  "verified": true,
+  "key": "chauhan2019-multiscale-planar-graph"
+ },
+ {
+  "id": "p10",
+  "title": "Risk analysis beyond vulnerability and resilience – characterizing the defensibility of critical systems",
+  "authors": [
+   "Vicki Bier",
+   "Alexander Gutfraind"
+  ],
+  "year": 2019,
+  "type": "paper",
+  "venue": "European Journal of Operational Research",
+  "volume": "276",
+  "pages": "626-636",
+  "doi": "10.1016/j.ejor.2019.01.011",
+  "abstract": "The structure of a network can significantly affect the course of infections on it. For example, a human-to-human contact network affects the epidemiology of infectious diseases, affecting both the rate of new infections and the sizes of outbreaks. Related results are also known for infrastructure systems like communication and power transmission systems that experience cascading breakdowns. Despite this dependence, some characteristics of outbreaks are predictable based only on the infection being transmitted. Here we consider SIR-like infections, and give an elementary proof that for any network, increasing the probability of transmission monotonically increases the mean outbreak size. We also introduce a simple model, termed 2FleeSIR, in which susceptibles protect themselves by avoiding contacts with infectees. The dynamics of 2FleeSIR are fundamentally different from SIR dynamics because 2FleeSIR seems to exhibit no outbreak transition in densely-connected networks. Moreover, 2FleeSIR exhibits non-monotonic phenomena: for some networks, increasing transmissibility actually decreases the final extent. We show that in non-monotonic epidemics, public health officials might be able to intervene in a fundamentally new way to change the network so as to control the effect of unexpectedly-high transmissibility. However, interventions that decrease transmissibility might actually cause more people to become infected.",
+  "tags": [
+   "risk",
+   "applied math"
+  ],
+  "verified": true,
+  "key": "bier2019-risk-analysis-beyond"
+ },
+ {
+  "id": "p29",
+  "title": "Using massive health insurance claims data to predict very high-cost claimants: a machine learning approach",
+  "authors": [
+   "José M. Maisog",
+   "Wenhong Li",
+   "Yanchun Xu",
+   "Brian Hurley",
+   "Hetal Shah",
+   "Ryan Lemberg",
+   "Tina Borden",
+   "Stephen Bandeian",
+   "Melissa Schline",
+   "Roxanna Cross",
+   "Alan Spiro",
+   "Russ Michael",
+   "Alexander Gutfraind"
+  ],
+  "year": 2019,
+  "type": "preprint",
+  "arxiv": "1912.13032",
+  "abstract": "Due to escalating healthcare costs, accurately predicting which patients will incur high costs is an important task for payers and providers of healthcare. High-cost claimants (HiCCs) are patients who have annual costs above $\\$250,000$ and who represent just 0.16% of the insured population but currently account for 9% of all healthcare costs. In this study, we aimed to develop a high-performance algorithm to predict HiCCs to inform a novel care management system. Using health insurance claims from 48 million people and augmented with census data, we applied machine learning to train binary classification models to calculate the personal risk of HiCC. To train the models, we developed a platform starting with 6,006 variables across all clinical and demographic dimensions and constructed over one hundred candidate models. The best model achieved an area under the receiver operating characteristic curve of 91.2%. The model exceeds the highest published performance (84%) and remains high for patients with no prior history of high-cost status (89%), who have less than a full year of enrollment (87%), or lack pharmacy claims data (88%). It attains an area under the precision-recall curve of 23.1%, and precision of 74% at a threshold of 0.99. A care management program enrolling 500 people with the highest HiCC risk is expected to treat 199 true HiCCs and generate a net savings of $\\$7.3$ million per year. Our results demonstrate that high-performing predictive models can be constructed using claims data and publicly available data alone, even for rare high-cost claimants exceeding $\\$250,000$. Our model demonstrates the transformational power of machine learning and artificial intelligence in care management, which would allow healthcare payers and providers to introduce the next generation of care management programs.",
+  "tags": [
+   "health",
+   "ML"
+  ],
+  "verified": true,
+  "key": "maisog2019-massive-health-insurance"
+ },
+ {
+  "id": "p22",
+  "title": "Integrating evidence, models and maps to enhance Chagas disease vector surveillance",
+  "authors": [
+   "Alexander Gutfraind",
+   "Jennifer K. Peterson",
+   "Erica Billig Rose",
+   "Claudia Arevalo-Nieto",
+   "Justin Sheen",
+   "Gian Franco Condori-Luna",
+   "Narender Tankasala",
+   "Ricardo Castillo-Neyra",
+   "Carlos Condori-Pino",
+   "Priyanka Anand",
+   "Cesar Naquira-Velarde",
+   "Michael Z. Levy"
+  ],
+  "year": 2018,
+  "type": "paper",
+  "venue": "PLOS Neglected Tropical Diseases",
+  "volume": "12",
+  "pages": "e0006883",
+  "doi": "10.1371/journal.pntd.0006883",
+  "abstract": "Background Until recently, the Chagas disease vector, Triatoma infestans, was widespread in Arequipa, Perú, but as a result of a decades-long campaign in which over 70,000 houses were treated with insecticides, infestation prevalence is now greatly reduced. To monitor for T. infestans resurgence, the city is currently in a surveillance phase in which a sample of houses is selected for inspection each year. Despite extensive data from the control campaign that could be used to inform surveillance, the selection of houses to inspect is often carried out haphazardly or by convenience. Therefore, we asked, how can we enhance efforts toward preventing T. infestans resurgence by creating the opportunity for vector surveillance to be informed by data? Methodology/principal findings To this end, we developed a mobile app that provides vector infestation risk maps generated with data from the control campaign run in a predictive model. The app is intended to enhance vector surveillance activities by giving inspectors the opportunity to incorporate the infestation risk information into their surveillance activities, but it does not dictate which houses to surveil. Therefore, a critical question becomes, will inspectors use the risk information? To answer this question, we ran a pilot study in which we compared surveillance using the app to the current practice (paper maps). We hypothesized that inspectors would use the risk information provided by the app, as measured by the frequency of higher risk houses visited, and qualitative analyses of inspector movement patterns in the field. We also compared the efficiency of both mediums to identify factors that might discourage risk information use. Over the course of ten days (five with each medium), 1,081 houses were visited using the paper maps, of which 366 (34%) were inspected, while 1,038 houses were visited using the app, with 401 (39%) inspected. Five out of eight inspectors (62.5%) visited more higher risk houses when using the app (Fisher’s exact test, p < 0.001). Among all inspectors, there was an upward shift in proportional visits to higher risk houses when using the app (Mantel-Haenszel test, common odds ratio (OR) = 2.42, 95% CI 2.00–2.92), and in a second analysis using generalized linear mixed models, app use increased the odds of visiting a higher risk house 2.73-fold (95% CI 2.24–3.32), suggesting that the risk information provided by the app was used by most inspectors. Qualitative analyses of inspector movement revealed indications of risk information use in seven out of eight (87.5%) inspectors. There was no difference between the app and paper maps in the number of houses visited (paired t-test, p = 0.67) or inspected (p = 0.17), suggesting that app use did not reduce surveillance efficiency. Conclusions/significance Without staying vigilant to remaining and re-emerging vector foci following a vector control campaign, disease transmission eventually returns and progress achieved is reversed. Our results suggest that, when provided the opportunity, most inspectors will use risk information to direct their surveillance activities, at least over the short term. The study is an initial, but key, step toward evidence-based vector surveillance.",
+  "tags": [
+   "health",
+   "applied math"
+  ],
+  "verified": true,
+  "key": "gutfraind2018-integrating-evidence-models"
+ },
+ {
+  "id": "p19",
+  "title": "Modeling of patient virus titers suggests that availability of a vaccine could reduce hepatitis C virus transmission among injecting drug users",
+  "authors": [
+   "Marian Major",
+   "Alexander Gutfraind",
+   "Louis Shekhtman",
+   "Qingwen Cui",
+   "Alla Kachko",
+   "Scott J. Cotler",
+   "Behzad Hajarizadeh",
+   "Rachel Sacks-Davis",
+   "Kimberly Page",
+   "Basmattee Boodram",
+   "Harel Dahari"
+  ],
+  "year": 2018,
+  "type": "paper",
+  "venue": "Science Translational Medicine",
+  "volume": "10",
+  "doi": "10.1126/scitranslmed.aao4496",
+  "abstract": "A future vaccine could reduce hepatitis C virus transmission among those sharing syringes, even in the presence of postexposure viral replication in vaccinees.",
+  "tags": [
+   "health",
+   "applied math"
+  ],
+  "verified": true,
+  "key": "major2018-modeling-patient-virus"
+ },
+ {
+  "id": "p67",
+  "title": "A BANDIT MODEL TO OPTIMIZE ENTOMOLOGICAL SURVEYS",
+  "authors": [
+   "SK Nutman",
+   "A Gutfraind",
+   "E Billig",
+   "R Castillo-Neyra",
+   "MZ Levy"
+  ],
+  "year": 2017,
+  "type": "paper",
+  "abstract": "A bandit model optimizes entomological surveys by dynamically adjusting sampling strategies based on real-time data to improve efficiency and accuracy. This approach balances exploration and exploitation to identify optimal trapping locations for invasive insects. The method enhances resource allocation in entomological research.",
+  "tags": [
+   "health",
+   "ML"
+  ],
+  "verified": false,
+  "key": "nutman2017-bandit-model-optimize"
+ },
+ {
+  "id": "p15",
+  "title": "A graph database framework for covert network analysis: An application to the Islamic State network in Europe",
+  "authors": [
+   "Alexander Gutfraind",
+   "Michael Genkin"
+  ],
+  "year": 2017,
+  "type": "paper",
+  "venue": "Social Networks",
+  "volume": "51",
+  "pages": "178-188",
+  "doi": "10.1016/j.socnet.2016.10.004",
+  "abstract": "The paper proposes a graph database framework for analyzing covert networks, specifically applied to the Islamic State network in Europe. It focuses on encoding complex data and mapping network structures. The work was published in Social Networks in 2017.",
+  "tags": [
+   "security",
+   "networks"
+  ],
+  "verified": true,
+  "key": "gutfraind2017-graph-database-framework"
+ },
+ {
+  "id": "p51",
+  "title": "Computerized Fluid Analysis for Determining Whether an Asset is Likely to Have a Fluid Issue",
+  "authors": [
+   "A Pandey",
+   "M Horrell",
+   "A Gutfraind"
+  ],
+  "year": 2017,
+  "type": "patent",
+  "abstract": "Decision theory recognizes two principal approaches to solving problems under uncertainty: probabilistic models and cognitive heuristics. However, engineers, public planners and decision-makers in other fields seem to employ solution strategies that do not fall into either field, i.e., strategies such as robust design and contingency planning. In addition, identical strategies appear in several fields and disciplines, pointing to an important shared toolkit. The focus of this paper is to develop a systematic understanding of such strategies and develop a framework to better employ them in decision making and risk management. The paper finds more than 110 examples of such strategies and this approach to risk is termed RDOT: Risk-reducing Design and Operations Toolkit. RDOT strategies fall into six broad categories: structural, reactive, formal, adversarial, multi-stage and positive. RDOT strategies provide an efficient response even to radical uncertainty or unknown unknowns that are challenging to address with probabilistic methods. RDOT could be incorporated into decision theory using workflows, multi-objective optimization and multi-attribute utility theory. Overall, RDOT represents an overlooked class of versatile responses to uncertainty. Because RDOT strategies do not require precise estimation or forecasting, they are particularly helpful in decision problems affected by uncertainty and for resource-constrained decision making.",
+  "tags": [
+   "ML",
+   "risk"
+  ],
+  "verified": false,
+  "key": "pandey2017-computerized-fluid-analysis"
+ },
+ {
+  "id": "p68",
+  "title": "Defensibility and Risk Management",
+  "authors": [
+   "V Bier",
+   "A Gutfraind",
+   "Z Lu"
+  ],
+  "year": 2017,
+  "type": "paper",
+  "abstract": "Defensibility refers to the ability of a system to withstand attacks, and Gutfraind's work emphasizes its importance in risk management. Bier and Gutfraind introduced defensibility as a fundamental aspect of system security. This concept helps in assessing and improving the resilience of systems against threats.",
+  "tags": [
+   "risk",
+   "security"
+  ],
+  "verified": false,
+  "key": "bier2017-defensibility-risk-management"
+ },
+ {
+  "id": "p18",
+  "title": "Generating realistic scaled complex networks",
+  "authors": [
+   "Christian L. Staudt",
+   "Michael Hamann",
+   "Alexander Gutfraind",
+   "Ilya Safro",
+   "Henning Meyerhenke"
+  ],
+  "year": 2017,
+  "type": "paper",
+  "venue": "Applied Network Science",
+  "volume": "2",
+  "doi": "10.1007/s41109-017-0054-z",
+  "arxiv": "1609.02121",
+  "abstract": "… Generating realistic scaled complex networks … We refer the reader to a discussion in Gutfraind et al. (2015) and its preliminary extended version (Gutfraind et al. 2012). Intuitively, the …",
+  "tags": [
+   "networks"
+  ],
+  "verified": true,
+  "key": "staudt2017-generating-realistic-scaled"
+ },
+ {
+  "id": "p13",
+  "title": "High-Risk Geographic Mobility Patterns among Young Urban and Suburban Persons who Inject Drugs and their Injection Network Members",
+  "authors": [
+   "Basmattee Boodram",
+   "Anna L. Hotton",
+   "Louis Shekhtman",
+   "Alexander Gutfraind",
+   "Harel Dahari"
+  ],
+  "year": 2017,
+  "type": "paper",
+  "venue": "Journal of Urban Health",
+  "volume": "95",
+  "pages": "71-82",
+  "doi": "10.1007/s11524-017-0185-7",
+  "abstract": "Young people in the USA who inject drugs, particularly those at a risk of residence instability, experience the highest incidence of hepatitis C (HCV) infections. This study examined associations between geographic mobility patterns and sociodemographic, behavioral, and social network characteristics of 164 young (ages 18–30) persons who inject drugs (PWID). We identified a potential bridge sub-population who reported residence in both urban and suburban areas in the past year (crossover transients) and higher-risk …",
+  "tags": [
+   "health"
+  ],
+  "verified": true,
+  "key": "boodram2017-high-risk-geographic"
+ },
+ {
+  "id": "p06",
+  "title": "Indication of Outreach Options for Healthcare Facility to Facilitate Patient Actions",
+  "authors": [
+   "A McElhinney",
+   "A Gutfraind",
+   "N Bowers"
+  ],
+  "year": 2017,
+  "type": "paper",
+  "abstract": "BACKGROUND 0001 Healthcare facilities provide a variety of medi cally-related services to patients, including diagnosis and treatment of patient health issues, pharmaceutical services (eg, medical prescriptions), and ongoing treatment (eg, medical checkups, periodic administering of medication, physical therapy, etc.). Many of the medically-related Ser vices require patients to take actions such as visiting a healthcare facility or related organization, signing up for prescriptions, responding to inquiries, etc. However, patients may not take the …",
+  "tags": [
+   "health",
+   "ML"
+  ],
+  "verified": false,
+  "key": "mcelhinney2017-indication-outreach-options"
+ },
+ {
+  "id": "p59",
+  "title": "Modeling vaccine and DAA treatment scale up effect on hepatitis C prevalence among persons who inject drugs in metropolitan Chicago",
+  "authors": [
+   "D. Echevarria",
+   "A. Gutfraind",
+   "B. Boodram",
+   "S.J. Cotler",
+   "M. Major",
+   "H. Dahari"
+  ],
+  "year": 2017,
+  "type": "paper",
+  "venue": "Journal of Hepatology",
+  "volume": "66",
+  "pages": "S505-S506",
+  "doi": "10.1016/s0168-8278(17)31411-3",
+  "abstract": "ABSTRACT Hepatitis C virus (HCV) infection is a leading cause of chronic liver disease and mortality worldwide. Direct-acting antiviral (DAA) therapy leads to high cure rates. However, persons who inject drugs (PWID) are at risk for reinfection after cure and may require multiple DAA treatments to reach the World Health Organization’s (WHO) goal of HCV elimination by 2030. Using an agent-based model (ABM) that accounts for the complex interplay of demographic factors, risk behaviors, social networks, and geographic location for HCV transmission among PWID, we examined the combination(s) of DAA enrollment (2.5%, 5%, 7.5%, 10%), adherence (60%, 70%, 80%, 90%) and frequency of DAA treatment courses needed to achieve the WHO’s goal of reducing incident chronic infections by 90% by 2030 among a large population of PWID from Chicago, IL and surrounding suburbs. We also estimated the economic DAA costs associated with each scenario. Our results indicate that a DAA treatment rate of &gt;7.5% per year with 90% adherence results in 75% of enrolled PWID requiring only a single DAA course; however19% would require 2 courses, 5%, 3 courses and &lt;2%, 4 courses), with an overall DAA cost of $325 million to achieve the WHO goal in metropolitan Chicago. We estimate a 28% increase in the overall DAA cost under low adherence (70%) compared to high adherence (90%). Our modeling results have important public health implications for HCV elimination among U.S. PWID. Using a range of feasible treatment enrollment and adherence rates, we report robust findings supporting the need to address re-exposure and reinfection among PWID to reduce HCV incidence.",
+  "tags": [
+   "health"
+  ],
+  "verified": true,
+  "key": "echevarria2017-modeling-vaccine-daa"
+ },
+ {
+  "id": "p37",
+  "title": "Requirement Forecast for Health Care Services",
+  "authors": [
+   "A Gutfraind",
+   "A McElhinney",
+   "J Herzog"
+  ],
+  "year": 2017,
+  "type": "paper",
+  "abstract": "Decision theory recognizes two principal approaches to solving problems under uncertainty: probabilistic models and cognitive heuristics. However, engineers, public planners and decision-makers in other fields seem to employ solution strategies that do not fall into either field, i.e., strategies such as robust design and contingency planning. In addition, identical strategies appear in several fields and disciplines, pointing to an important shared toolkit. The focus of this paper is to develop a systematic understanding of such strategies and develop a framework to better employ them in decision making and risk management. The paper finds more than 110 examples of such strategies and this approach to risk is termed RDOT: Risk-reducing Design and Operations Toolkit. RDOT strategies fall into six broad categories: structural, reactive, formal, adversarial, multi-stage and positive. RDOT strategies provide an efficient response even to radical uncertainty or unknown unknowns that are challenging to address with probabilistic methods. RDOT could be incorporated into decision theory using workflows, multi-objective optimization and multi-attribute utility theory. Overall, RDOT represents an overlooked class of versatile responses to uncertainty. Because RDOT strategies do not require precise estimation or forecasting, they are particularly helpful in decision problems affected by uncertainty and for resource-constrained decision making.",
+  "tags": [
+   "health",
+   "ML"
+  ],
+  "verified": false,
+  "key": "gutfraind2017-requirement-forecast-health"
+ },
+ {
+  "id": "p21",
+  "title": "Generating Scaled Replicas of Real-World Complex Networks",
+  "authors": [
+   "Christian L. Staudt",
+   "Michael Hamann",
+   "Ilya Safro",
+   "Alexander Gutfraind",
+   "Henning Meyerhenke"
+  ],
+  "year": 2016,
+  "type": "paper",
+  "venue": "Studies in Computational Intelligence",
+  "pages": "17-28",
+  "doi": "10.1007/978-3-319-50901-3_2",
+  "abstract": "Research on generative models plays a central role in the emerging field of network science, studying how statistical patterns found in real networks can be generated by formal rules. During the last two decades, a variety of models has been proposed with an ultimate goal of achieving comprehensive realism for the generated networks. In this study, we (a) introduce a new generator, termed ReCoN;(b) explore how models can be fitted to an original network to produce a structurally similar replica, and (c) aim for producing much …",
+  "tags": [
+   "networks"
+  ],
+  "verified": true,
+  "key": "staudt2016-generating-scaled-replicas"
+ },
+ {
+  "id": "p20",
+  "title": "Modeling a dynamic bi-layer contact network of injection drug users and the spread of blood-borne infections",
+  "authors": [
+   "Rui Fu",
+   "Alexander Gutfraind",
+   "Margaret L. Brandeau"
+  ],
+  "year": 2016,
+  "type": "paper",
+  "venue": "Mathematical Biosciences",
+  "volume": "273",
+  "pages": "102-113",
+  "doi": "10.1016/j.mbs.2016.01.003",
+  "abstract": "A dynamic bi-layer contact network model evaluates drug users' interactions to contain blood-borne infections. It assesses the spread of diseases like HIV among injection drug users. The model's efficacy helps design programs to combat drug addiction and related infections.",
+  "tags": [
+   "health",
+   "networks"
+  ],
+  "verified": true,
+  "key": "fu2016-modeling-dynamic-bi"
+ },
+ {
+  "id": "p00",
+  "title": "Operational resilience: concepts, design and analysis",
+  "authors": [
+   "Alexander A. Ganin",
+   "Emanuele Massaro",
+   "Alexander Gutfraind",
+   "Nicolas Steen",
+   "Jeffrey M. Keisler",
+   "Alexander Kott",
+   "Rami Mangoubi",
+   "Igor Linkov"
+  ],
+  "year": 2016,
+  "type": "paper",
+  "venue": "Scientific Reports",
+  "volume": "6",
+  "doi": "10.1038/srep19540",
+  "arxiv": "1508.01230",
+  "abstract": "AbstractBuilding resilience into today’s complex infrastructures is critical to the daily functioning of society and its ability to withstand and recover from natural disasters, epidemics and cyber-threats. This study proposes quantitative measures that capture and implement the definition of engineering resilience advanced by the National Academy of Sciences. The approach is applicable across physical, information and social domains. It evaluates the critical functionality, defined as a performance function of time set by the stakeholders. Critical functionality is a source of valuable information, such as the integrated system resilience over a time interval and its robustness. The paper demonstrates the formulation on two classes of models: 1) multi-level directed acyclic graphs and 2) interdependent coupled networks. For both models synthetic case studies are used to explore trends. For the first class, the approach is also applied to the Linux operating system. Results indicate that desired resilience and robustness levels are achievable by trading off different design parameters, such as redundancy, node recovery time and backup supply available. The nonlinear relationship between network parameters and resilience levels confirms the utility of the proposed approach, which is of benefit to analysts and designers of complex systems and networks.",
+  "tags": [
+   "risk",
+   "networks",
+   "applied math"
+  ],
+  "verified": true,
+  "key": "ganin2016-operational-resilience-concepts"
+ },
+ {
+  "id": "p14",
+  "title": "Agent-Based Model Forecasts Aging of the Population of People Who Inject Drugs in Metropolitan Chicago and Changing Prevalence of Hepatitis C Infections",
+  "authors": [
+   "Alexander Gutfraind",
+   "Basmattee Boodram",
+   "Nikhil Prachand",
+   "Atesmachew Hailegiorgis",
+   "Harel Dahari",
+   "Marian E. Major"
+  ],
+  "year": 2015,
+  "type": "paper",
+  "venue": "PLOS ONE",
+  "volume": "10",
+  "pages": "e0137993",
+  "doi": "10.1371/journal.pone.0137993",
+  "abstract": "Hepatitis C (HCV) is a leading cause of chronic liver disease and mortality worldwide. Persons who inject drugs (PWID) are at the highest risk for acquiring and transmitting HCV …",
+  "tags": [
+   "health",
+   "applied math"
+  ],
+  "verified": true,
+  "key": "gutfraind2015-agent-model-forecasts"
+ },
+ {
+  "id": "p03",
+  "title": "Efficacy and Optimization of Palivizumab Injection Regimens Against Respiratory Syncytial Virus Infection",
+  "authors": [
+   "Alexander Gutfraind",
+   "Alison P. Galvani",
+   "Lauren Ancel Meyers"
+  ],
+  "year": 2015,
+  "type": "paper",
+  "venue": "JAMA Pediatrics",
+  "volume": "169",
+  "pages": "341",
+  "doi": "10.1001/jamapediatrics.2014.3804",
+  "abstract": "Importance Infection with the respiratory syncytial virus (RSV) is the leading cause of hospitalizations in children, accounting for more than 90 000 hospitalizations every year in the United States. For children who are at risk for severe RSV infections, the American Academy of Pediatrics recommends immunoprophylaxis with a series of up to 5 injections of the antibody palivizumab administered monthly, beginning on November 1 of each year. However, many practitioners initiate injections at the onset of RSV season as indicated by …",
+  "tags": [
+   "health",
+   "applied math"
+  ],
+  "verified": true,
+  "key": "gutfraind2015-efficacy-optimization-palivizumab"
+ },
+ {
+  "id": "p16",
+  "title": "Evaluating Large-scale Blood Transfusion Therapy for the Current Ebola Epidemic in Liberia",
+  "authors": [
+   "Alexander Gutfraind",
+   "Lauren Ancel Meyers"
+  ],
+  "year": 2015,
+  "type": "paper",
+  "venue": "The Journal of Infectious Diseases",
+  "volume": "211",
+  "pages": "1262-1267",
+  "doi": "10.1093/infdis/jiv042",
+  "abstract": "Large-scale blood transfusion therapy in Liberia during the Ebola epidemic was projected to reduce case-fatality rates and save thousands of lives. The therapy aimed to utilize convalescent plasma from recovered patients. The approach was based on epidemiological estimates and modeling.",
+  "tags": [
+   "health",
+   "applied math"
+  ],
+  "verified": true,
+  "key": "gutfraind2015-evaluating-large-scale"
+ },
+ {
+  "id": "p09",
+  "title": "Mathematical Modeling of Hepatitis C Prevalence Reduction with Antiviral Treatment Scale-Up in Persons Who Inject Drugs in Metropolitan Chicago",
+  "authors": [
+   "Desarae Echevarria",
+   "Alexander Gutfraind",
+   "Basmattee Boodram",
+   "Marian Major",
+   "Sara Del Valle",
+   "Scott J Cotler",
+   "Harel Dahari"
+  ],
+  "year": 2015,
+  "type": "paper",
+  "venue": "PLOS ONE",
+  "volume": "10",
+  "pages": "e0135901",
+  "doi": "10.1371/journal.pone.0135901",
+  "abstract": "ABSTRACT Hepatitis C virus (HCV) infection is a leading cause of chronic liver disease and mortality worldwide. Direct-acting antiviral (DAA) therapy leads to high cure rates. However, persons who inject drugs (PWID) are at risk for reinfection after cure and may require multiple DAA treatments to reach the World Health Organization’s (WHO) goal of HCV elimination by 2030. Using an agent-based model (ABM) that accounts for the complex interplay of demographic factors, risk behaviors, social networks, and geographic location for HCV transmission among PWID, we examined the combination(s) of DAA enrollment (2.5%, 5%, 7.5%, 10%), adherence (60%, 70%, 80%, 90%) and frequency of DAA treatment courses needed to achieve the WHO’s goal of reducing incident chronic infections by 90% by 2030 among a large population of PWID from Chicago, IL and surrounding suburbs. We also estimated the economic DAA costs associated with each scenario. Our results indicate that a DAA treatment rate of &gt;7.5% per year with 90% adherence results in 75% of enrolled PWID requiring only a single DAA course; however19% would require 2 courses, 5%, 3 courses and &lt;2%, 4 courses), with an overall DAA cost of $325 million to achieve the WHO goal in metropolitan Chicago. We estimate a 28% increase in the overall DAA cost under low adherence (70%) compared to high adherence (90%). Our modeling results have important public health implications for HCV elimination among U.S. PWID. Using a range of feasible treatment enrollment and adherence rates, we report robust findings supporting the need to address re-exposure and reinfection among PWID to reduce HCV incidence.",
+  "tags": [
+   "health",
+   "applied math"
+  ],
+  "verified": true,
+  "key": "echevarria2015-mathematical-modeling-hepatitis"
+ },
+ {
+  "id": "p07",
+  "title": "Multiscale network generation",
+  "authors": [
+   "Alexander Gutfraind",
+   "Lauren Ancel Meyers",
+   "Ilya Safro"
+  ],
+  "year": 2015,
+  "type": "preprint",
+  "arxiv": "1207.4266",
+  "abstract": "Relationships between entities in complex systems could be represented using the paradigm of networks. The network representation can then reveal the evolution, structure and dynamics of those systems. Frequently, obtaining the required scientific data about the networks is expensive or infeasible. In other words, the amount of available empirical data is insufficient for simulation, validation, verification, and other scientific tasks. In these situations, empirical data should be augmented by synthetic data generated from models in …",
+  "tags": [
+   "networks",
+   "applied math"
+  ],
+  "verified": true,
+  "key": "gutfraind2015-multiscale-network-generation"
+ },
+ {
+  "id": "p52",
+  "title": "Network installation under convex costs",
+  "authors": [
+   "Alexander Gutfraind",
+   "Jeremy Kun",
+   "Ádám D. Lelkes",
+   "Lev Reyzin"
+  ],
+  "year": 2015,
+  "type": "paper",
+  "venue": "Journal of Complex Networks",
+  "volume": "4",
+  "pages": "177-186",
+  "doi": "10.1093/comnet/cnv020",
+  "abstract": "We study the Neighbor Aided Network Installation Problem (NANIP) introduced previously which asks for a minimal cost ordering of the vertices of a graph, where the cost of visiting a node is a function of the number of neighbors that have already been visited. This problem has applications in resource management and disaster recovery. In this paper we analyze the computational hardness of NANIP. In particular we show that this problem is NP-hard even when restricted to convex decreasing cost functions, give a linear approximation lower bound for the greedy algorithm, and prove a general sub-constant approximation lower bound. Then we give a new integer programming formulation of NANIP and empirically observe its speedup over the original integer program.",
+  "tags": [
+   "networks",
+   "applied math"
+  ],
+  "verified": true,
+  "key": "gutfraind2015-network-installation-convex"
+ },
+ {
+  "id": "p17",
+  "title": "Optimizing Distribution of Pandemic Influenza Antiviral Drugs",
+  "authors": [
+   "Bismark Singh",
+   "Hsin-Chan Huang",
+   "David P. Morton",
+   "Gregory P. Johnson",
+   "Alexander Gutfraind",
+   "Alison P. Galvani",
+   "Bruce Clements",
+   "Lauren A. Meyers"
+  ],
+  "year": 2015,
+  "type": "paper",
+  "venue": "Emerging Infectious Diseases",
+  "volume": "21",
+  "pages": "251-258",
+  "doi": "10.3201/eid2102.141024",
+  "abstract": "Effective distribution of these drugs will reduce illness and death in underinsured populations.",
+  "tags": [
+   "health",
+   "applied math"
+  ],
+  "verified": true,
+  "key": "singh2015-optimizing-distribution-pandemic"
+ },
+ {
+  "id": "p39",
+  "title": "Modelling the neighbour aid phenomenon for installing costly complex networks",
+  "authors": [
+   "A. Gutfraind",
+   "M. Bradonji",
+   "T. Novikoff"
+  ],
+  "year": 2014,
+  "type": "paper",
+  "venue": "Journal of Complex Networks",
+  "volume": "3",
+  "pages": "249-263",
+  "doi": "10.1093/comnet/cnu033",
+  "abstract": "The study models the neighbor aid phenomenon to minimize installation costs for complex networks. It introduces a discrete optimization problem. The work is associated with Alexander Gutfraind.",
+  "tags": [
+   "networks",
+   "risk"
+  ],
+  "verified": true,
+  "key": "gutfraind2014-modelling-neighbour-aid"
+ },
+ {
+  "id": "p40",
+  "title": "Monotonic and Non-Monotonic Infections on Networks",
+  "authors": [
+   "Alexander Gutfraind"
+  ],
+  "year": 2014,
+  "type": "paper",
+  "venue": "NATO Science for Peace and Security Series - D: Information and Communication Security",
+  "doi": "10.3233/978-1-61499-391-9-93",
+  "abstract": "The structure of a network can significantly affect the course of infections on it. For example, a human-to-human contact network affects the epidemiology of infectious diseases, affecting both the rate of new infections and the sizes of outbreaks. Related results are also known for infrastructure systems like communication and power transmission systems that experience cascading breakdowns. Despite this dependence, some characteristics of outbreaks are predictable based only on the infection being transmitted. Here we consider SIR-like infections, and give an elementary proof that for any network, increasing the probability of transmission monotonically increases the mean outbreak size. We also introduce a simple model, termed 2FleeSIR, in which susceptibles protect themselves by avoiding contacts with infectees. The dynamics of 2FleeSIR are fundamentally different from SIR dynamics because 2FleeSIR seems to exhibit no outbreak transition in densely-connected networks. Moreover, 2FleeSIR exhibits non-monotonic phenomena: for some networks, increasing transmissibility actually decreases the final extent. We show that in non-monotonic epidemics, public health officials might be able to intervene in a fundamentally new way to change the network so as to control the effect of unexpectedly-high transmissibility. However, interventions that decrease transmissibility might actually cause more people to become infected.",
+  "tags": [
+   "health",
+   "networks"
+  ],
+  "verified": true,
+  "key": "gutfraind2014-monotonic-non-monotonic"
+ },
+ {
+  "id": "p71",
+  "title": "Network installation and recovery: approximation lower bounds and faster exact formulations",
+  "authors": [
+   "Alexander Gutfraind",
+   "Jeremy Kun",
+   "Ádám D. Lelkes",
+   "Lev Reyzin"
+  ],
+  "year": 2014,
+  "type": "preprint",
+  "arxiv": "1411.3640",
+  "abstract": "We study the Neighbor Aided Network Installation Problem (NANIP) introduced previously which asks for a minimal cost ordering of the vertices of a graph, where the cost of visiting a node is a function of the number of neighbors that have already been visited. This problem has applications in resource management and disaster recovery. In this paper we analyze the computational hardness of NANIP. In particular we show that this problem is NP-hard even when restricted to convex decreasing cost functions, give a linear approximation lower bound for the greedy algorithm, and prove a general sub-constant approximation lower bound. Then we give a new integer programming formulation of NANIP and empirically observe its speedup over the original integer program.",
+  "tags": [
+   "networks",
+   "applied math"
+  ],
+  "verified": true,
+  "key": "gutfraind2014-network-installation-recovery"
+ },
+ {
+  "id": "p77",
+  "title": "Sequential construction of costly networks",
+  "authors": [
+   "Alexander Gutfraind",
+   "Milan Bradonji_",
+   "Tim Novikoff"
+  ],
+  "year": 2014,
+  "type": "paper",
+  "venue": "Safety, Reliability, Risk and Life-Cycle Performance of Structures and Infrastructures",
+  "pages": "3615-3620",
+  "doi": "10.1201/b16387-523",
+  "abstract": "Gutfraind's work focuses on optimizing the sequential construction of costly networks, proposing methods to minimize installation costs through strategic link formation. The model emphasizes dynamic network formation and resource allocation. This approach is crucial for efficient network design.",
+  "tags": [
+   "networks",
+   "risk"
+  ],
+  "verified": true,
+  "key": "gutfraind2014-sequential-construction-costly"
+ },
+ {
+  "id": "p30",
+  "title": "Evader interdiction: algorithms, complexity and collateral damage",
+  "authors": [
+   "Matthew P. Johnson",
+   "Alexander Gutfraind",
+   "Kiyan Ahmadizadeh"
+  ],
+  "year": 2013,
+  "type": "paper",
+  "venue": "Annals of Operations Research",
+  "volume": "222",
+  "pages": "341-359",
+  "doi": "10.1007/s10479-013-1372-x",
+  "abstract": "Evader interdiction involves algorithms to capture evaders while managing complexity and minimizing collateral damage. The study focuses on optimizing capture rates within budget constraints. The research highlights the trade-offs between efficiency and collateral impact.",
+  "tags": [
+   "security",
+   "networks",
+   "applied math"
+  ],
+  "verified": true,
+  "key": "johnson2013-evader-interdiction-algorithms"
+ },
+ {
+  "id": "p41",
+  "title": "Optimal recovery of damaged infrastructure network",
+  "authors": [
+   "Alexander Gutfraind",
+   "Milan Bradonjić",
+   "Tim Novikoff"
+  ],
+  "year": 2012,
+  "type": "preprint",
+  "arxiv": "1207.2799",
+  "abstract": "Natural disasters or attacks may disrupt infrastructure networks on a vast scale. Parts of the damaged network are interdependent, making it difficult to plan and optimally execute the recovery operations. To study how interdependencies affect the recovery schedule, we introduce a new discrete optimization problem where the goal is to minimize the total cost of installing (or recovering) a given network. This cost is determined by the structure of the network and the sequence in which the nodes are installed. Namely, the cost of installing a node is a function of the number of its neighbors that have been installed before it. We analyze the natural case where the cost function is decreasing and convex, and provide bounds on the cost of the optimal solution. We also show that all sequences have the same cost when the cost function is linear and provide an upper bound on the cost of a random solution for an Erdős-Rényi random graph. Examining the computational complexity, we show that the problem is NP-hard when the cost function is arbitrary. Finally, we provide a formulation as an integer program, an exact dynamic programming algorithm, and a greedy heuristic which gives high quality solutions.",
+  "tags": [
+   "networks",
+   "risk"
+  ],
+  "verified": true,
+  "key": "gutfraind2012-optimal-recovery-damaged"
+ },
+ {
+  "id": "p73",
+  "title": "Advancing knowledge of network theory for understanding robustness",
+  "authors": [
+   "F Pan",
+   "A Hagberg",
+   "A Gutfraind",
+   "N Fan"
+  ],
+  "year": 2011,
+  "type": "paper",
+  "abstract": "Network theory advances understanding of robustness through structural, load-based, and interdependent models, showing scale-free networks' resilience to random failures but vulnerability to targeted attacks. Recent research focuses on complex, interdependent systems and their cascading failures. Information theory offers a new perspective on measuring network robustness.",
+  "tags": [
+   "networks",
+   "risk"
+  ],
+  "verified": false,
+  "key": "pan2011-advancing-knowledge-network"
+ },
+ {
+  "id": "p74",
+  "title": "Home grown terrorism using ABM and SNA",
+  "authors": [
+   "A Gutfraind"
+  ],
+  "year": 2011,
+  "type": "paper",
+  "abstract": "The interdiction problem arises in a variety of areas including military logistics, infectious disease control, and counter-terrorism. In the typical formulation of network interdiction, the task of the interdictor is to find a set of edges in a weighted network such that the removal of those edges would maximally increase the cost to an evader of traveling on a path through the network. Our work is motivated by cases in which the evader has incomplete information about the network or lacks planning time or computational power, e.g. when authorities set up roadblocks to catch bank robbers, the criminals do not know all the roadblock locations or the best path to use for their escape. We introduce a model of network interdiction in which the motion of one or more evaders is described by Markov processes and the evaders are assumed not to react to interdiction decisions. The interdiction objective is to find an edge set of size B, that maximizes the probability of capturing the evaders. We prove that similar to the standard least-cost formulation for deterministic motion this interdiction problem is also NP-hard. But unlike that problem our interdiction problem is submodular and the optimal solution can be approximated within 1-1/e using a greedy algorithm. Additionally, we exploit submodularity through a priority evaluation strategy that eliminates the linear complexity scaling in the number of network edges and speeds up the solution by orders of magnitude. Taken together the results bring closer the goal of finding realistic solutions to the interdiction problem on global-scale networks.",
+  "tags": [
+   "security",
+   "networks"
+  ],
+  "verified": false,
+  "key": "gutfraind2011-home-grown-terrorism"
+ },
+ {
+  "id": "p24",
+  "title": "Interdiction of a Markovian Evader",
+  "authors": [
+   "Alexander Gutfraind",
+   "Aric Hagberg",
+   "David Izraelevitz",
+   "Feng Pan"
+  ],
+  "year": 2011,
+  "type": "paper",
+  "venue": "12th INFORMS Computing Society Conference",
+  "pages": "3-15",
+  "doi": "10.1287/ics.2011.0020",
+  "arxiv": "1009.0556",
+  "abstract": "Shortest path network interdiction is a combinatorial optimization problem on an activity network arising in a number of important security-related applications. It is classically formulated as a bilevel maximin problem representing an\" interdictor\" and an\" evader\". The evader tries to move from a source node to the target node along a path of the least cost while the interdictor attempts to frustrate this motion by cutting edges or nodes. The interdiction objective is to find the optimal set of edges to cut given that there is a finite …",
+  "tags": [
+   "security",
+   "networks",
+   "applied math"
+  ],
+  "verified": true,
+  "key": "gutfraind2011-interdiction-markovian-evader"
+ },
+ {
+  "id": "p11",
+  "title": "Lanchester Theory and the Fate of Armed Revolts",
+  "authors": [
+   "Michael P. Atkinson",
+   "Alexander Gutfraind",
+   "Moshe Kress"
+  ],
+  "year": 2011,
+  "type": "preprint",
+  "arxiv": "1106.4358",
+  "abstract": "Major revolts have recently erupted in parts of the Middle East with substantial international repercussions. Predicting, coping with and winning those revolts have become a grave problem for many regimes and for world powers. We propose a new model of such revolts that describes their evolution by building on the classic Lanchester theory of combat. The model accounts for the split in the population between those loyal to the regime and those favoring the rebels. We show that, contrary to classical Lanchesterian insights regarding …",
+  "tags": [
+   "security",
+   "applied math"
+  ],
+  "verified": true,
+  "key": "atkinson2011-lanchester-theory-fate"
+ },
+ {
+  "id": "p38",
+  "title": "New models of interdiction in networked systems",
+  "authors": [
+   "A Gutfraind"
+  ],
+  "year": 2011,
+  "type": "paper",
+  "abstract": "The structure of a network can significantly affect the course of infections on it. For example, a human-to-human contact network affects the epidemiology of infectious diseases, affecting both the rate of new infections and the sizes of outbreaks. Related results are also known for infrastructure systems like communication and power transmission systems that experience cascading breakdowns. Despite this dependence, some characteristics of outbreaks are predictable based only on the infection being transmitted. Here we consider SIR-like infections, and give an elementary proof that for any network, increasing the probability of transmission monotonically increases the mean outbreak size. We also introduce a simple model, termed 2FleeSIR, in which susceptibles protect themselves by avoiding contacts with infectees. The dynamics of 2FleeSIR are fundamentally different from SIR dynamics because 2FleeSIR seems to exhibit no outbreak transition in densely-connected networks. Moreover, 2FleeSIR exhibits non-monotonic phenomena: for some networks, increasing transmissibility actually decreases the final extent. We show that in non-monotonic epidemics, public health officials might be able to intervene in a fundamentally new way to change the network so as to control the effect of unexpectedly-high transmissibility. However, interventions that decrease transmissibility might actually cause more people to become infected.",
+  "tags": [
+   "security",
+   "networks"
+  ],
+  "verified": false,
+  "key": "gutfraind2011-new-models-interdiction"
+ },
+ {
+  "id": "p12",
+  "title": "Optimizing Network Topology for Cascade Resilience",
+  "authors": [
+   "Alexander Gutfraind"
+  ],
+  "year": 2011,
+  "type": "paper",
+  "venue": "Springer Optimization and Its Applications",
+  "pages": "37-59",
+  "doi": "10.1007/978-1-4614-0857-4_2",
+  "abstract": "Optimizing network topology enhances resilience against cascade failures by strategically distributing nodes to prevent domino effects from single node failures. This approach minimizes vulnerability in complex networks. Key strategies include redundancy and balanced connectivity.",
+  "tags": [
+   "networks",
+   "risk",
+   "applied math"
+  ],
+  "verified": true,
+  "key": "gutfraind2011-optimizing-network-topology"
+ },
+ {
+  "id": "p75",
+  "title": "Recent work in the mathematics of counter-terrorism",
+  "authors": [
+   "A Gutfraind"
+  ],
+  "year": 2011,
+  "type": "paper",
+  "abstract": "Many successful terrorist groups operate across international borders where different countries host different stages of terrorist operations. Often the recruits for the group come from one country or countries, while the targets of the operations are in another. Stopping such attacks is difficult because intervention in any region or route might merely shift the terrorists elsewhere. Here we propose a model of transnational terrorism based on the theory of activity networks. The model represents attacks on different countries as paths in a network. The group is assumed to prefer paths of lowest cost (or risk) and maximal yield from attacks. The parameters of the model are computed for the Islamist-Salafi terrorist movement based on open source data and then used for estimation of risks of future attacks. The central finding is that the USA has an enduring appeal as a target, due to lack of other nations of matching geopolitical weight or openness. It is also shown that countries in Africa and Asia that have been overlooked as terrorist bases may become highly significant threats in the future. The model quantifies the dilemmas facing countries in the effort to cut such networks, and points to a limitation of deterrence against transnational terrorists.",
+  "tags": [
+   "security",
+   "applied math"
+  ],
+  "verified": false,
+  "key": "gutfraind2011-recent-work-mathematics"
+ },
+ {
+  "id": "p35",
+  "title": "Targeting by Transnational Terrorist Groups",
+  "authors": [
+   "Alexander Gutfraind"
+  ],
+  "year": 2011,
+  "type": "paper",
+  "venue": "Lecture Notes in Social Networks",
+  "pages": "9-32",
+  "doi": "10.1007/978-3-7091-0388-3_2",
+  "arxiv": "1008.4776",
+  "abstract": "Transnational terrorist groups often operate across international borders, utilizing different countries for various stages of their operations. Their targeting strategies are complex and involve multiple nations. Effective countermeasures require coordinated international efforts.",
+  "tags": [
+   "security",
+   "networks"
+  ],
+  "verified": true,
+  "key": "gutfraind2011-targeting-transnational-terrorist"
+ },
+ {
+  "id": "p26",
+  "title": "Mathematical terrorism",
+  "authors": [
+   "A Gutfraind"
+  ],
+  "year": 2010,
+  "type": "paper",
+  "abstract": "Background Non-pharmaceutical interventions such as social distancing, school closures and travel restrictions are often implemented to control outbreaks of infectious diseases. For influenza in schools, the Center of Disease Control (CDC) recommends that febrile students remain isolated at home until they have been fever-free for at least one day and a related policy is recommended for SARS-CoV-2 (COVID-19). Other authors proposed using a school week of four or fewer days of in-person instruction for all students to reduce transmission. However, there is limited evidence supporting the effectiveness of these interventions. Methods We introduced a mathematical model of school outbreaks that considers both intervention methods. Our model accounts for the school structure and schedule, as well as the time-progression of fever symptoms and viral shedding. The model was validated on outbreaks of seasonal and pandemic influenza and COVID-19 in schools. It was then used to estimate the outbreak curves and the proportion of the population infected (attack rate) under the proposed interventions. Results For influenza, the CDC-recommended one day of post-fever isolation can reduce the attack rate by a median (interquartile range) of 29 (13–59)%. With 2 days of post-fever isolation the attack rate could be reduced by 70 (55–85)%. Alternatively, shortening the school week to 4 and 3 days reduces the attack rate by 73 (64–88)% and 93 (91–97)%, respectively. For COVID-19, application of post-fever isolation policy was found to be less effective and reduced the attack rate by 10 (5–17)% for a 2-day isolation policy and by 14 (5–26)% for 14 days. A 4-day school week would reduce the median attack rate in a COVID-19 outbreak by 57 (52–64)%, while a 3-day school week would reduce it by 81 (79–83)%. In both infections, shortening the school week significantly reduced the duration of outbreaks. Conclusions Shortening the school week could be an important tool for controlling influenza and COVID-19 in schools and similar settings. Additionally, the CDC-recommended post-fever isolation policy for influenza could be enhanced by requiring two days of isolation instead of one.",
+  "tags": [
+   "security",
+   "applied math"
+  ],
+  "verified": false,
+  "key": "gutfraind2010-mathematical-terrorism"
+ },
+ {
+  "id": "p04",
+  "title": "Optimizing Topological Cascade Resilience Based on the Structure of Terrorist Networks",
+  "authors": [
+   "Alexander Gutfraind"
+  ],
+  "year": 2010,
+  "type": "paper",
+  "venue": "PLoS ONE",
+  "volume": "5",
+  "pages": "e13448",
+  "doi": "10.1371/journal.pone.0013448",
+  "arxiv": "0906.0786",
+  "abstract": "Optimizing topological cascade resilience in terrorist networks involves enhancing their structural robustness to prevent failures from spreading. This approach focuses on key nodes and connections to maintain network integrity. The method has been shown to effectively mitigate cascading failures in complex networks.",
+  "tags": [
+   "security",
+   "networks",
+   "risk"
+  ],
+  "verified": true,
+  "key": "gutfraind2010-optimizing-topological-cascade"
+ },
+ {
+  "id": "p79",
+  "title": "Markovian Network Interdiction and the Four Color Theorem",
+  "authors": [
+   "Alexander Gutfraind",
+   "Kiyan Ahmadizadeh"
+  ],
+  "year": 2009,
+  "type": "preprint",
+  "arxiv": "0911.4322",
+  "abstract": "The paper discusses the Unreactive Markovian Evader Interdiction Problem and its connection to the Four Color Theorem in network interdiction. The authors propose a method to optimally place sensors on a network. The work was published in 2009.",
+  "tags": [
+   "networks",
+   "security",
+   "applied math"
+  ],
+  "verified": true,
+  "key": "gutfraind2009-markovian-network-interdiction"
+ },
+ {
+  "id": "p05",
+  "title": "Optimal Interdiction of Unreactive Markovian Evaders",
+  "authors": [
+   "Alexander Gutfraind",
+   "Aric Hagberg",
+   "Feng Pan"
+  ],
+  "year": 2009,
+  "type": "paper",
+  "venue": "Lecture Notes in Computer Science",
+  "pages": "102-116",
+  "doi": "10.1007/978-3-642-01929-6_9",
+  "arxiv": "0903.0173",
+  "abstract": "The optimal interdiction of unreactive Markovian evaders involves finding a set of edges to maximize capture probability. The problem is approached using network theory and optimization techniques. The goal is to interdict the evaders with minimal resources.",
+  "tags": [
+   "security",
+   "networks",
+   "applied math"
+  ],
+  "verified": true,
+  "key": "gutfraind2009-optimal-interdiction-unreactive"
+ },
+ {
+  "id": "p33",
+  "title": "Terrorism as a mathematical problem",
+  "authors": [
+   "A Gutfraind"
+  ],
+  "year": 2009,
+  "type": "paper",
+  "abstract": "Abstract Background Non-pharmaceutical interventions such as social distancing, school closures and travel restrictions are often implemented to control outbreaks of infectious diseases. For influenza in schools, the Center of Disease Control (CDC) recommends that febrile students remain isolated at home until they have been fever-free for at least one day and a related policy is recommended for SARS-CoV2 (COVID-19). Other authors proposed using a school week of four or fewer days of in-person instruction for all students to reduce transmission. However, there is limited evidence supporting the effectiveness of these interventions. Methods We introduced a mathematical model of school outbreaks that considers both intervention methods. Our model accounts for the school structure and schedule, as well as the time-progression of fever symptoms and viral shedding. The model was validated on outbreaks of seasonal and pandemic influenza and COVID-19 in schools. It was then used to estimate the outbreak curves and the proportion of the population infected (attack rate) under the proposed interventions. Results For influenza, the CDC-recommended one day of post-fever isolation can reduce the attack rate by a median (interquartile range) of 29 (13 - 59)%. With two days of post-fever isolation the attack rate could be reduced by 70 (55 - 85)%. Alternatively, shortening the school week to four and three days reduces the attack rate by 73 (64 - 88)% and 93 (91 - 97)%, respectively. For COVID-19, application of post-fever isolation policy was found to be less effective and reduced the attack rate by 10 (5 - 17)% for a two-day isolation policy and by 14 (5 - 26)% for 14 days. A four-day school week would reduce the median attack rate in a COVID-19 outbreak by 57 (52 - 64)%, while a three-day school week would reduce it by 81 (79 - 83)%. In both infections, shortening the school week significantly reduced the duration of outbreaks. Conclusions Shortening the school week could be an important tool for controlling influenza and COVID-19 in schools and similar settings. Additionally, the CDC-recommended post-fever isolation policy for influenza could be enhanced by requiring two days of isolation instead of one.",
+  "tags": [
+   "security",
+   "applied math"
+  ],
+  "verified": false,
+  "key": "gutfraind2009-terrorism-as-mathematical"
+ },
+ {
+  "id": "p02",
+  "title": "Understanding Terrorist Organizations with a Dynamic Model",
+  "authors": [
+   "Alexander Gutfraind"
+  ],
+  "year": 2009,
+  "type": "paper",
+  "venue": "Mathematical Methods in Counterterrorism",
+  "pages": "107-125",
+  "doi": "10.1007/978-3-211-09442-6_7",
+  "arxiv": "0811.4450",
+  "abstract": "Understanding terrorist organizations involves dynamic models that evolve over time, emphasizing process-based approaches rather than static outcomes. This approach focuses on continuous learning and adaptation to new information and behaviors.",
+  "tags": [
+   "security",
+   "applied math"
+  ],
+  "verified": true,
+  "key": "gutfraind2009-understanding-terrorist-organizations"
+ },
+ {
+  "id": "p08",
+  "title": "How Do Terrorist Cells Self-Assemble: Insights from an Agent-Based Model of Radicalization",
+  "authors": [
+   "Michael Genkin",
+   "Alexander Gutfraind"
+  ],
+  "year": 2008,
+  "type": "paper",
+  "doi": "10.2139/ssrn.1031521",
+  "abstract": "Terrorist cells self-assemble through social networks influenced by radicalization, using agent-based models to simulate interactions and information flow. These models help understand how individuals become radicalized and form terrorist groups. The simulations show how networks evolve and how radical populations grow.",
+  "tags": [
+   "security",
+   "networks"
+  ],
+  "verified": true,
+  "key": "genkin2008-terrorist-cells-self"
+ },
+ {
+  "id": "p27",
+  "title": "Error-reducing Structure of the Genetic Code Indicates Code Origin in Non-thermophile Organisms",
+  "authors": [
+   "Alexander Gutfraind",
+   "Achim Kempf"
+  ],
+  "year": 2007,
+  "type": "paper",
+  "venue": "Origins of Life and Evolution of Biospheres",
+  "volume": "38",
+  "pages": "75-85",
+  "doi": "10.1007/s11084-007-9071-8",
+  "abstract": "During the RNA World, organisms experienced high rates of genetic errors, which implies that there was strong evolutionary pressure to reduce the errors' phenotypical impact by suitably structuring the still-evolving genetic code. Therefore, the relative rates of the various types of genetic errors should have left characteristic imprints in the structure of the genetic code. Here, we show that, therefore, it is possible to some extent to reconstruct those error rates, as well as the nucleotide frequencies, for the time when the code was fixed. We find …",
+  "tags": [
+   "applied math"
+  ],
+  "verified": true,
+  "key": "gutfraind2007-error-reducing-structure"
+ }
+]

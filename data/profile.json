@@ -1,0 +1,45 @@
+{
+  "name": "Alexander (Sasha) Gutfraind",
+  "tagline": "Applied mathematics, AI agents and risk for public health and security",
+  "email": "agutfraind.research@gmail.com",
+  "links": [
+    {
+      "label": "Google Scholar",
+      "url": "https://scholar.google.com/citations?user=ym72Y8gAAAAJ"
+    },
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/gutfraind"
+    }
+  ],
+  "bio": [
+    "I build and analyze mathematical and AI models of complex systems: AI and agentic systems, infectious disease transmission, vaccine trials, network resilience. My work spans agent-based simulation of hepatitis C among people who inject drugs, scalable network generation, interdiction and recovery on networks, and non-probabilistic risk management for AI.",
+    "I held an adjunct professor appointment in the Department of Medicine at Loyola University Chicago, with an appointment in the Division of Epidemiology & Biostatistics at the University of Illinois Chicago. Earlier positions were at the U.S. FDA, the University of Texas at Austin and Los Alamos National Laboratory. I received my PhD in Applied Mathematics from Cornell University.",
+    "Research with my collaborators has been supported by over $9M in grants from NIH, CDC and FDA, and has appeared in venues including Science Translational Medicine, PNAS Nexus, PLOS ONE and Scientific Reports."
+  ],
+  "students_note": "I have trained 15+ students and junior scientists.",
+  "students": [
+    {"name": "Keshav Gandhi", "url": null, "years": "2020-", "level": "Undergraduate", "affiliation": "UIC", "topics": ["health", "AI", "vaccines", "clinical trials", "vaccine hesitancy"], "papers": ["gandhi2026-wed-014-multivariable", "gandhi2025-challenges-coverage-future", "gandhi2025-modern-approaches-predicting"]},
+    {"name": "Sophia Mao", "url": null, "years": "2026-",  "level": "Undergraduate", "affiliation": "UIC", "topics": ["health", "AI", "LLM elicitation"], "papers": []},
+    {"name": "Yagnesh Lokesh", "url": null, "years": "2026-",  "level": "Undergraduate", "affiliation": "UIC", "topics": ["healthcare", "AI", "mission data imputation"], "papers": []},
+    {"name": "Priyanjali Rudra", "url": null, "years": "2026-",  "level": "Undergraduate", "affiliation": "UIC", "topics": ["uncertainty", "healthcare", "prediction markets"], "papers": []},
+    {"name": "Sami Alahmadi", "url": null, "years": "2020-2023", "level": "Graduate", "affiliation": "UIC / Georgetown", "topics": ["health", "AI", "human trafficking in healthcare (ICD-10)", "vaccine hesitancy"], "papers": ["gutfraind2022-victims-human-trafficking", "gandhi2025-modern-approaches-predicting"]},
+    {"name": "Mughundhan Chandrasekar", "url": null, "years": "2017", "level": "Graduate", "affiliation": "Loyola / UIC", "topics": ["healthcare", "ML"], "papers": []},
+    {"name": "Sarah Nutman", "url": null, "years": "2017", "level": "Graduate", "affiliation": "U of Pennsylvania", "topics": ["health", "machine learning", "bandit algorithms", "Chagas vector surveillance"], "papers": ["nutman2017-bandit-model-optimize"]},
+    {"name": "Narender Tankasala", "url": null, "years": "2016", "level": "Graduate", "affiliation": "Loyola / UIC", "topics": ["health", "Chagas disease", "vector surveillance"], "papers": ["gutfraind2018-integrating-evidence-models"]},
+    {"name": "Premnath Ramanathan", "url": null, "years": "2016", "level": "Graduate", "affiliation": "Loyola / UIC", "topics": ["healthcare", "ML"], "papers": []},
+    {"name": "Jennifer Jesuraj", "url": null, "years": "2016", "level": "Graduate", "affiliation": "Loyola / UIC", "topics": ["healthcare", "ML"], "papers": []},
+    {"name": "Rahul Pipalia", "url": null, "years": "2016", "level": "Graduate", "affiliation": "Loyola / UIC", "topics": ["healthcare", "ML"], "papers": []},
+    {"name": "Edward Chien", "url": null, "years": "2010", "level": "Graduate", "affiliation": "Los Alamos National Laboratory", "topics": ["optimization", "networks"], "papers": []},
+    {"name": "Matthew Li", "url": null, "years": "2022", "level": "Undergraduate", "affiliation": "", "topics": [], "papers": []},
+    {"name": "Richard Guan Chiu", "url": null, "years": "2020-2022", "level": "Undergraduate", "affiliation": "UIC", "topics": ["health", "machine learning", "vaccine trials", "equitable recruitment"], "papers": ["chiu2023-reducing-sample-size"]},
+    {"name": "Adam Burns", "url": null, "years": "2019-2020", "level": "Undergraduate", "affiliation": "UIC", "topics": ["health", "epidemic modeling", "school isolation policies", "influenza and COVID-19"], "papers": ["burns2021-effectiveness-isolation-policies"]},
+    {"name": "Anjani Maley", "url": null, "years": "2020", "level": "Undergraduate", "affiliation": "UIC", "topics": [], "papers": []},
+    {"name": "Michael Gallagher", "url": null, "years": "2018", "level": "Undergraduate", "affiliation": "UIC", "topics": ["security", "analytics"], "papers": []},
+    {"name": "Desarae Echevarria", "url": null, "years": "2015", "level": "Undergraduate", "affiliation": "Loyola", "topics": ["health", "agent-based modeling", "hepatitis C", "treatment and vaccine scale-up"], "papers": ["echevarria2015-mathematical-modeling-hepatitis", "echevarria2017-modeling-vaccine-daa", "echevarria2019-modeling-indicates-efficient", "tatara2022-modeling-hepatitis-c"]},
+    {"name": "Rose Huang", "url": null, "years": "2014", "level": "Undergraduate", "affiliation": "UIC", "topics": ["healthcare", "ML"], "papers": []},
+    {"name": "Murillo Marco Carvalho Cunha", "url": null, "years": "2014", "level": "Undergraduate", "affiliation": "UIC", "topics": ["healthcare", "ML"], "papers": []},
+    {"name": "Krishna Patel", "url": null, "years": "2012-2014", "level": "Undergraduate", "affiliation": "U of Texas at Austin", "topics": ["healthcare", "optimization"], "papers": []},
+    {"name": "Raman Allawirdi", "url": null, "years": "2013-2014", "level": "Undergraduate", "affiliation": "UIC", "topics": ["healthcare", "ML"], "papers": []}
+  ]
+}

@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Alexander Gutfraind – Research</title>
+<meta name="description" content="Research page of Alexander (Sasha) Gutfraind: publications, bio and past students.">
+<style>
+:root{--bg:#fbfaf7;--fg:#1d1d1f;--mute:#6b6b70;--line:#e4e1da;--accent:#1f5fa8;--chip:#eef2f7;--chip-on:#1f5fa8;--chip-on-fg:#fff}
+@media (prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#15161a;--fg:#e8e8ea;--mute:#9a9aa2;--line:#2c2e35;--accent:#7db1ee;--chip:#22252c;--chip-on:#7db1ee;--chip-on-fg:#0d1117}}
+:root[data-theme=dark]{--bg:#15161a;--fg:#e8e8ea;--mute:#9a9aa2;--line:#2c2e35;--accent:#7db1ee;--chip:#22252c;--chip-on:#7db1ee;--chip-on-fg:#0d1117}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.6 Georgia,"Iowan Old Style",serif}
+main{max-width:760px;margin:0 auto;padding:48px 16px 80px}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+h1{font-size:2rem;margin:0 0 .15em;line-height:1.2}
+h2{font:600 .8rem/1 system-ui,sans-serif;letter-spacing:.12em;text-transform:uppercase;color:var(--mute);margin:3rem 0 1rem;padding-bottom:.6rem;border-bottom:1px solid var(--line)}
+.sans{font-family:system-ui,-apple-system,sans-serif}
+.tagline{color:var(--mute);margin:0 0 1rem}
+.links{display:flex;flex-wrap:wrap;gap:.4rem 1.1rem;font:.9rem system-ui,sans-serif}
+#bio p{margin:.8em 0}
+.student{margin:.5rem 0}.student .m{color:var(--mute);font-size:.88rem}
+.grp{font:600 .95rem system-ui,sans-serif;margin:1.4rem 0 .4rem}
+.tools{display:flex;flex-wrap:wrap;gap:.5rem;align-items:center;margin-bottom:.8rem;font-family:system-ui,sans-serif}
+#q{flex:1 1 220px;padding:.5rem .7rem;border:1px solid var(--line);border-radius:8px;background:transparent;color:var(--fg);font:inherit;font-size:.95rem}
+.chip{border:0;background:var(--chip);color:var(--fg);padding:.25rem .65rem;border-radius:99px;font:.8rem system-ui,sans-serif;cursor:pointer}
+.chip[aria-pressed=true]{background:var(--chip-on);color:var(--chip-on-fg)}
+#count{color:var(--mute);font:.85rem system-ui,sans-serif;margin:.2rem 0 0}
+.year{font:600 1.05rem system-ui,sans-serif;margin:2rem 0 .5rem;color:var(--mute)}
+.paper{padding:.7rem 0;border-bottom:1px solid var(--line)}
+.paper .t{font-weight:600;line-height:1.35}
+.paper .a{color:var(--mute);font-size:.93rem}.paper .a b{color:var(--fg);font-weight:600}
+.paper .v{font-size:.93rem;font-style:italic}
+.row{display:flex;flex-wrap:wrap;gap:.3rem .9rem;align-items:center;margin-top:.35rem;font:.82rem system-ui,sans-serif}
+.row button{background:none;border:0;padding:0;color:var(--accent);font:inherit;cursor:pointer}
+.tag{color:var(--mute)}
+.abs{margin:.5rem 0 0;font-size:.92rem;color:var(--fg)}
+footer{margin-top:3rem;color:var(--mute);font:.8rem system-ui,sans-serif}
+</style>
+</head>
+<body>
+<main>
+<header>
+  <h1 id="name"></h1>
+  <p class="tagline" id="tagline"></p>
+  <div class="links" id="links"></div>
+</header>
+
+<h2>About</h2>
+<div id="bio"></div>
+
+<section id="students-sec" hidden>
+  <h2>Students &amp; mentees</h2>
+  <p id="students-note"></p>
+  <div id="students"></div>
+</section>
+
+<h2>Publications</h2>
+<div class="tools">
+  <input id="q" type="search" placeholder="Search title, author, venue, abstract" aria-label="Search publications">
+</div>
+<div class="tools" id="tags" role="group" aria-label="Filter by topic"></div>
+<p id="count"></p>
+<div id="papers"></div>
+
+<footer>Source: <code>data/papers.json</code> · <span id="upd"></span></footer>
+</main>
+
+<script>
+const $ = id => document.getElementById(id);
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const ME = /gutfraind/i;
+let papers = [], active = new Set(), q = '', studentRender = () => {};
+const localPdf = new Set();  // keys whose pdf/<key>/<key>.pdf exists (checked on load)
+
+function authors(p){
+  return (p.authors||[]).map(a => ME.test(a) ? `<b>${esc(a)}</b>` : esc(a)).join(', ');
+}
+function venue(p){
+  let v = p.venue ? esc(p.venue) : (p.arxiv ? 'arXiv preprint' : '');
+  if (p.volume) v += ` ${esc(p.volume)}`;
+  if (p.pages) v += `: ${esc(p.pages)}`;
+  return v + (p.year ? ` (${p.year})` : '');
+}
+function links(p){
+  const L = [];
+  const pdf = p.pdf || (localPdf.has(p.key) ? `pdf/${p.key}/${p.key}.pdf` : '') || (p.arxiv ? `https://arxiv.org/pdf/${p.arxiv}` : '');
+  if (pdf) L.push(`<a href="${esc(pdf)}">PDF</a>`);
+  if (p.arxiv) L.push(`<a href="https://arxiv.org/abs/${esc(p.arxiv)}">arXiv:${esc(p.arxiv)}</a>`);
+  if (p.doi) L.push(`<a href="https://doi.org/${esc(p.doi)}">DOI</a>`);
+  if (p.url) L.push(`<a href="${esc(p.url)}">Link</a>`);
+  if (p.abstract) L.push(`<button data-abs="${esc(p.id)}" aria-expanded="false">Abstract</button>`);
+  L.push(`<button data-cite="${esc(p.id)}">Copy citation</button>`);
+  return L.join('');
+}
+function citation(p){
+  return `${(p.authors||[]).join(', ')} (${p.year}). ${p.title}. ${venue(p).replace(/<[^>]+>/g,'')}.` + (p.doi ? ` https://doi.org/${p.doi}` : '');
+}
+function match(p){
+  if (active.size && ![...active].every(t => (p.tags||[]).includes(t))) return false;
+  if (!q) return true;
+  return [p.title, (p.authors||[]).join(' '), p.venue, p.abstract, (p.tags||[]).join(' '), p.year].join(' ').toLowerCase().includes(q);
+}
+function render(){
+  const list = papers.filter(match);
+  $('count').textContent = `${list.length} of ${papers.length} publications`;
+  let html = '', y = null;
+  for (const p of list){
+    if (p.year !== y){ y = p.year; html += `<div class="year">${y}</div>`; }
+    html += `<article class="paper" id="${esc(p.id)}">
+      <div class="t">${esc(p.title)}${p.type==='patent' ? ' <span class="tag">[patent]</span>' : ''}</div>
+      <div class="a">${authors(p)}</div>
+      <div class="v">${venue(p)}</div>
+      <div class="row">${links(p)}${(p.tags||[]).map(t=>`<span class="tag">#${esc(t)}</span>`).join('')}</div>
+      <div class="abs" id="abs-${esc(p.id)}" hidden>${esc(p.abstract||'')}</div>
+    </article>`;
+  }
+  $('papers').innerHTML = html || '<p>No matches.</p>';
+}
+$('papers').addEventListener('click', e => {
+  const b = e.target.closest('button'); if (!b) return;
+  if (b.dataset.abs){
+    const el = $('abs-'+b.dataset.abs); el.hidden = !el.hidden;
+    b.setAttribute('aria-expanded', String(!el.hidden));
+  } else if (b.dataset.cite){
+    const p = papers.find(x => x.id === b.dataset.cite);
+    navigator.clipboard?.writeText(citation(p)); b.textContent = 'Copied';
+    setTimeout(()=> b.textContent = 'Copy citation', 1200);
+  }
+});
+$('q').addEventListener('input', e => { q = e.target.value.trim().toLowerCase(); render(); });
+
+Promise.all([fetch('data/profile.json').then(r=>r.json()), fetch('data/papers.json').then(r=>r.json())])
+.then(([pr, ps]) => {
+  document.title = `${pr.name} – Research`;
+  $('name').textContent = pr.name; $('tagline').textContent = pr.tagline || '';
+  $('links').innerHTML = [...(pr.links||[]).map(l=>`<a href="${esc(l.url)}">${esc(l.label)}</a>`),
+    pr.email ? `<a href="mailto:${esc(pr.email)}">${esc(pr.email)}</a>` : ''].join('');
+  $('bio').innerHTML = (pr.bio||[]).map(t=>`<p>${esc(t)}</p>`).join('');
+  const st = (pr.students||[]).filter(s=>s.name);
+  if (st.length || pr.students_note){
+    $('students-sec').hidden = false; $('students-note').textContent = pr.students_note || '';
+    const grp = s => s.years.endsWith('-') ? 'Current' : (s.level || 'Past');
+    const one = s => {
+      const nm = s.url ? `<a href="${esc(s.url)}">${esc(s.name)}</a>` : esc(s.name);
+      const meta = [s.years, s.affiliation].filter(Boolean).map(esc).join(', ');
+      const tp = (s.topics||[]).length ? `<div class="m">${s.topics.map(esc).join(' · ')}</div>` : '';
+      const jp = (s.papers||[]).map(k => papers.find(p=>p.key===k)).filter(Boolean)
+        .map(p => `<a href="#${esc(p.id)}">${esc(p.title)} (${p.year})</a>`).join('; ');
+      return `<div class="student"><b>${nm}</b>${meta?` (${meta})`:''}${tp}${jp?`<div class="m">Joint work: ${jp}</div>`:''}</div>`;
+    };
+    studentRender = () => {
+      $('students').innerHTML = ['Current','Graduate','Undergraduate','Past'].map(g => {
+        const l = st.filter(s => grp(s) === g); return l.length ? `<h3 class="grp">${g==='Graduate'||g==='Undergraduate'?g+' advisees':g==='Past'?'Past':'Current'}</h3>` + l.map(one).join('') : '';
+      }).join('');
+    };
+  }
+  papers = ps.sort((a,b)=> b.year-a.year || a.title.localeCompare(b.title));
+  studentRender();
+  const tags = [...new Set(papers.flatMap(p=>p.tags||[]))].sort();
+  $('tags').innerHTML = tags.map(t=>`<button class="chip" aria-pressed="false" data-t="${esc(t)}">${esc(t)}</button>`).join('');
+  $('tags').addEventListener('click', e => {
+    const b = e.target.closest('.chip'); if (!b) return;
+    const on = b.getAttribute('aria-pressed') !== 'true';
+    b.setAttribute('aria-pressed', on); on ? active.add(b.dataset.t) : active.delete(b.dataset.t); render();
+  });
+  $('upd').textContent = `${papers.length} publications`;
+  render();
+  // show PDF buttons for files dropped into pdf/<key>/<key>.pdf, without editing the JSON
+  Promise.all(papers.filter(p=>p.key && !p.pdf).map(p =>
+    fetch(`pdf/${p.key}/${p.key}.pdf`, {method:'HEAD'}).then(r => { if (r.ok && /pdf/i.test(r.headers.get('content-type')||'')) localPdf.add(p.key); }).catch(()=>{})
+  )).then(() => localPdf.size && render());
+}).catch(err => { $('papers').textContent = 'Could not load data (serve over http, not file://): ' + err; });
+</script>
+</body>
+</html>
