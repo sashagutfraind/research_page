@@ -287,7 +287,7 @@
   ],
   "year": 2023,
   "type": "paper",
-  "doi": "10.2139/ssrn.4370294",
+  "doi": "10.3390/healthcare12060644",
   "abstract": "Despite the availability of direct-acting antivirals that cure individuals infected with the hepatitis C virus (HCV), developing a vaccine is critically needed in achieving HCV elimination. HCV vaccine trials have been performed in populations with high incidence of new HCV infection such as people who inject drugs (PWID). Developing strategies of optimal recruitment of PWID for HCV vaccine trials could reduce sample size, follow-up costs and disparities in enrollment. We investigate trial recruitment informed by machine learning and evaluate a strategy for HCV vaccine trials termed PREDICTEE—Predictive Recruitment and Enrichment method balancing Demographics and Incidence for Clinical Trial Equity and Efficiency. PREDICTEE utilizes a survival analysis model applied to trial candidates, considering their demographic and injection characteristics to predict the candidate’s probability of HCV infection during the trial. The decision to recruit considers both the candidate’s predicted incidence and demographic characteristics such as age, sex, and race. We evaluated PREDICTEE using in silico methods, in which we first generated a synthetic candidate pool and their respective HCV infection events using HepCEP, a validated agent-based simulation model of HCV transmission among PWID in metropolitan Chicago. We then compared PREDICTEE to conventional recruitment of high-risk PWID who share drugs or injection equipment in terms of sample size and recruitment equity, with the latter measured by participation-to-prevalence ratio (PPR) across age, sex, and race. Comparing conventional recruitment to PREDICTEE found a reduction in sample size from 802 (95%: 642–1010) to 278 (95%: 264–294) with PREDICTEE, while also reducing screening requirements by 30%. Simultaneously, PPR increased from 0.475 (95%: 0.356–0.568) to 0.754 (95%: 0.685–0.834). Even when targeting a dissimilar maximally balanced population in which achieving recruitment equity would be more difficult, PREDICTEE is able to reduce sample size from 802 (95%: 642–1010) to 304 (95%: 288–322) while improving PPR to 0.807 (95%: 0.792–0.821). PREDICTEE presents a promising strategy for HCV clinical trial recruitment, achieving sample size reduction while improving recruitment equity.",
   "tags": [
    "health",
@@ -1202,14 +1202,14 @@
  },
  {
   "id": "p11",
-  "title": "Lanchester Theory and the Fate of Armed Revolts",
+  "title": "When do armed revolts succeed: lessons from Lanchester theory",
   "authors": [
-   "Michael P. Atkinson",
-   "Alexander Gutfraind",
-   "Moshe Kress"
+   "M P Atkinson",
+   "A Gutfraind",
+   "M Kress"
   ],
-  "year": 2011,
-  "type": "preprint",
+  "year": 2012,
+  "type": "paper",
   "arxiv": "1106.4358",
   "abstract": "Major revolts have recently erupted in parts of the Middle East with substantial international repercussions. Predicting, coping with and winning those revolts have become a grave problem for many regimes and for world powers. We propose a new model of such revolts that describes their evolution by building on the classic Lanchester theory of combat. The model accounts for the split in the population between those loyal to the regime and those favoring the rebels. We show that, contrary to classical Lanchesterian insights regarding …",
   "tags": [
@@ -1217,7 +1217,12 @@
    "applied math"
   ],
   "verified": true,
-  "key": "atkinson2011-lanchester-theory-fate"
+  "key": "atkinson2012-lanchester-revolts",
+  "venue": "Journal of the Operational Research Society",
+  "volume": "63",
+  "issue": "10",
+  "pages": "1363-1373",
+  "doi": "10.1057/jors.2011.146"
  },
  {
   "id": "p38",
